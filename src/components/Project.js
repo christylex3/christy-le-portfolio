@@ -5,7 +5,7 @@ const Project = () => {
     return (
         <div>
             <h2>WORK</h2>
-            <section className="project-gallery flex justify-between flex-col xl:flex-row">
+            <section className="project-gallery flex justify-between flex-col lg:flex-row">
                 <article className="project-card">
                     <a href="https://mike-gonz0.github.io/sadLibs/" target="_blank">
                         <h3>sadLibs</h3>
