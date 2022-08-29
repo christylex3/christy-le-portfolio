@@ -7,11 +7,11 @@ import designIcon from "../images/graphic-design-svgrepo-com.svg";
 import gameIcon from "../images/gamepad-gamer-svgrepo-com.svg";
 
 const About = () => {
-    return (
+	return (
 		<div>
 			{/* ABOUT ME */}
 			<section id="about-section">
-				<h2 className="about-header">ABOUT ME</h2>
+				<h2 className="about-header">MY STORY</h2>
 				<article className="about-body flex justify-between flex-col lg:flex-row">
 					<img id="profile-img" src={christy_le} alt="CHRISTY LE" />
 					<section className="who-body">
@@ -19,7 +19,13 @@ const About = () => {
 						<p className="italic">Full-Stack Developer</p>
 						<br />
 						<p>
-							I graduated from Georgia Institute of Technology with Bachelor of Science in Literature, Media, and Communication and worked at Mod Exposure in direct sales. Though soon later, I wanted to code for a living as I had been coding as a hobby. That's when I came across the GT Coding Bootcamp and made a career change to be a Full-Stack Developer.
+							I graduated from Georgia Institute of Technology
+							with Bachelor of Science in Literature, Media, and
+							Communication and worked at Mod Exposure in direct
+							sales. Though soon later, I wanted to code for a
+							living as I had been coding as a hobby. That's when
+							I came across the GT Coding Bootcamp and made a
+							career change to be a Full-Stack Developer.
 						</p>
 					</section>
 				</article>
@@ -28,7 +34,7 @@ const About = () => {
 			<section className="passion-section">
 				<h2 className="about-me-header">PASSION</h2>
 				<section className="flex justify-between flex-col lg:flex-row">
-					<article className="passion-content flex flex-col">
+					<article className="passion-card flex flex-col">
 						<img
 							className="passion-icon"
 							src={codingIcon}
@@ -36,29 +42,31 @@ const About = () => {
 						/>
 						<h3 className="passion-header text-center">CODING</h3>
 						<p className="passion-body">
-							I love coding because not only does it let me design websites and applications, it also challenges me to think in new perspectives.
+							{/* I love coding because not only does it let me design websites and applications, it also challenges me to think in new perspectives. */}
+							Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium
 						</p>
 					</article>
-					<article className="passion-content flex flex-col">
-					<img
+					<article className="passion-card flex flex-col">
+						<img
 							className="passion-icon"
 							src={designIcon}
 							alt="graphic design icon"
 						/>
-						<h3 className="passion-header">DESIGN</h3>
+						<h3 className="passion-header text-center">DESIGN</h3>
 						<p className="passion-body">
-							Design... 
+							Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium
 						</p>
 					</article>
-					<article className="passion-content flex flex-col">
+					<article className="passion-card flex flex-col">
 						<img
 							className="passion-icon"
 							src={gameIcon}
 							alt="gamepad gamer icon"
 						/>
-						<h3 className="passion-header">GAMES</h3>
+						<h3 className="passion-header text-center">GAMES</h3>
 						<p className="passion-body">
-							Since childhood, I've been a big fan of games since I love to be immersed in another world. I really love it when the game offers world building, puzzles, storytelling, and more. Games definitely play as a major source in my creativity. 
+							{/* Since childhood, I've been a big fan of games since I love to be immersed in another world. I really love it when the game offers world building, puzzles, storytelling, and more. Games definitely play as a major source in my creativity.  */}
+							Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium
 						</p>
 					</article>
 				</section>
@@ -66,11 +74,10 @@ const About = () => {
 			{/* SKILLS */}
 			<section className="skills-section">
 				<h2 className="about-me-header">SKILLS</h2>
-				<section className="flex justify-between flex-col lg:flex-row">
-				</section>
+				<section className="flex justify-between flex-col lg:flex-row"></section>
 			</section>
 		</div>
-    );
+	);
 };
 
 export default About;
