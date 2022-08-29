@@ -1,5 +1,6 @@
 import React from "react";
 // import { Link } from "react-router-dom";
+import placeholder from "../images/resume_placeholder.jpg";
 
 const Header = () => {
     return (
@@ -9,8 +10,8 @@ const Header = () => {
                 <a href="/">about me</a>
                 <a href="/work">work</a>
                 <a href="#contact-info">contact</a>
-                {/* <!-- Resume is in progress -->
-                <!-- <a href="./asset/images/resume_placeholder.jpg" alt="Christy Le's Resume" download>Resume</a> --> */}
+                {/* <!-- Resume is in progress, so placeholder is downloaded --> */}
+                <a href={placeholder} alt="Christy Le's Resume" download>resume</a>
             </nav>
         </header>
     );
