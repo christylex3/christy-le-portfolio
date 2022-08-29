@@ -31,6 +31,7 @@ main {
 header {
 	/* display: flex; */
 	/* justify-content: space-between; */
+	/* width: 100%; */
 	background-color: var(--charcoal);
 }
 
@@ -42,7 +43,7 @@ h1 {
 	font-size: 3rem;
 	font-family: "Parisienne";
 	font-weight: 600;
-	margin-left: 3em;
+	/* margin-left: 3em; */
 	color: var(--amaranth-pink);
 	/* filter: drop-shadow(0 0 0.1rem #f78651); */
 	/* filter: drop-shadow(0 0 0.15rem rgb(153, 153, 153)); */
@@ -78,7 +79,7 @@ p {
 nav > a {
 	font-size: 1.5rem;
 	font-family: 'Montserrat', sans-serif;
-	margin-right: 5em;
+	margin: 1% 2rem;
 	/* margin-left: 3rem; */
 	/* margin: 0 3rem; */
 	color: var(--almond);
@@ -200,6 +201,10 @@ footer > a:hover {
 	.passion-body {
 		margin-top: 2rem;
 	}
+
+	/* .skills-icon {
+		margin: 1.3rem;
+	} */
 
 	
 }

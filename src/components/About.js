@@ -34,7 +34,7 @@ import graphql from "../images/skills/graphql-colored.svg";
 
 // Skills icon - software
 import photoshop from "../images/skills/photoshop-colored.svg";
-import illustrator from "../images/skills/photoshop-colored.svg";
+import illustrator from "../images/skills/illustrator-colored.svg";
 import premierePro from "../images/skills/premierepro-colored.svg";
 import adobexd from "../images/skills/xd-colored.svg";
 import figma from "../images/skills/figma-colored.svg";
