@@ -20,7 +20,7 @@ npm i
 
 ## Usage
 
-Check out my portfolio [here]().
+Check out my portfolio [here](https://christylex3.github.io/christy-le-portfolio/).
 
 ## Contribution
 
