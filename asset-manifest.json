@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/christy-le-portfolio/static/css/main.8cd5e2cb.css",
-    "main.js": "/christy-le-portfolio/static/js/main.5e39790a.js",
+    "main.js": "/christy-le-portfolio/static/js/main.c36d284f.js",
     "static/js/787.1ed0c42c.chunk.js": "/christy-le-portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/recipefinder.png": "/christy-le-portfolio/static/media/recipefinder.26d2e9a11fb8d3dc4dd3.png",
     "static/media/christy-le.jpg": "/christy-le-portfolio/static/media/christy-le.b1da8e28b0ac5c2dbaf8.jpg",
@@ -38,11 +38,11 @@
     "static/media/heroku-colored.svg": "/christy-le-portfolio/static/media/heroku-colored.3f1cc0c4584482604a5fbcaf3d2fb7a5.svg",
     "static/media/premierepro-colored.svg": "/christy-le-portfolio/static/media/premierepro-colored.b997e1fb8e2dcb250f9668f5e0220dd4.svg",
     "main.8cd5e2cb.css.map": "/christy-le-portfolio/static/css/main.8cd5e2cb.css.map",
-    "main.5e39790a.js.map": "/christy-le-portfolio/static/js/main.5e39790a.js.map",
+    "main.c36d284f.js.map": "/christy-le-portfolio/static/js/main.c36d284f.js.map",
     "787.1ed0c42c.chunk.js.map": "/christy-le-portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8cd5e2cb.css",
-    "static/js/main.5e39790a.js"
+    "static/js/main.c36d284f.js"
   ]
 }
