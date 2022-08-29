@@ -7,7 +7,8 @@ import linkedIn from "../images/icons8-linkedin-circled.svg";
 
 const Footer = () => {
 	return (
-		<footer id="contact-info" class="flex flex-row justify-evenly">
+		<footer id="contact-info" class="flex flex-row justify-evenly items-center">
+			<p>Contact me!</p>
 			<a href="mailto: christylex3@gmail.com">
 				{/* Credits: <a target="_blank" href="https://icons8.com/icon/37246/gmail-logo">Gmail Logo</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a> */}
 				<img class="icon" src={gmail} alt="Gmail Logo icon by Icons8" />

@@ -1,10 +1,43 @@
 import React from "react";
 // import { Link } from "react-router-dom";
 
+// My Profile picture
 import christy_le from "../images/christy-le.jpg";
+
+// Passion icons
 import codingIcon from "../images/coding-svgrepo-com.svg";
 import designIcon from "../images/graphic-design-svgrepo-com.svg";
 import gameIcon from "../images/gamepad-gamer-svgrepo-com.svg";
+
+// Skills icon - core
+import java from "../images/skills/java-colored.svg";
+import javaScript from "../images/skills/javascript-colored.svg";
+
+// Skills icon - frontend
+import html from "../images/skills/html5-colored.svg";
+import css from "../images/skills/css3-colored.svg";
+import react from "../images/skills/react-colored.svg";
+import jquery from "../images/skills/jquery-colored.svg";
+import bootstrap from "../images/skills/bootstrap-colored.svg";
+import tailwindcss from "../images/skills/tailwindcss-colored.svg";
+import webpack from "../images/skills/webpack-colored.svg";
+import babel from "../images/skills/babel-colored.svg";
+
+// Skills icon - backend and database
+import nodejs from "../images/skills/nodejs-colored.svg";
+import expressjs from "../images/skills/express-colored.svg";
+import heroku from "../images/skills/heroku-colored.svg";
+import mysql from "../images/skills/mysql-colored.svg";
+import mongodb from "../images/skills/mongodb-colored.svg";
+import graphql from "../images/skills/graphql-colored.svg";
+
+
+// Skills icon - software
+import photoshop from "../images/skills/photoshop-colored.svg";
+import illustrator from "../images/skills/photoshop-colored.svg";
+import premierePro from "../images/skills/premierepro-colored.svg";
+import adobexd from "../images/skills/xd-colored.svg";
+import figma from "../images/skills/figma-colored.svg";
 
 const About = () => {
 	return (
@@ -74,7 +107,113 @@ const About = () => {
 			{/* SKILLS */}
 			<section className="skills-section">
 				<h2 className="about-me-header">SKILLS</h2>
-				<section className="flex justify-between flex-col lg:flex-row"></section>
+				<section className="flex flex-wrap justify-between flex-row">
+						<img
+							class="skills-icon"
+							src={java}
+							alt="Java"
+						/>
+						<img
+							class="skills-icon"
+							src={javaScript}
+							alt="JavaScript"
+						/>
+						<img
+							class="skills-icon"
+							src={html}
+							alt="HTML5"
+						/>
+						<img
+							class="skills-icon"
+							src={css}
+							alt="CSS"
+						/>
+						<img
+							class="skills-icon"
+							src={react}
+							alt="React.js"
+						/>
+						<img
+							class="skills-icon"
+							src={jquery}
+							alt="jQuery"
+						/>
+						<img
+							class="skills-icon"
+							src={bootstrap}
+							alt="Bootstrap"
+						/>
+						<img
+							class="skills-icon"
+							src={tailwindcss}
+							alt="TailwindCSS"
+						/>
+						<img
+							class="skills-icon"
+							src={webpack}
+							alt="Webpack"
+						/>
+						<img
+							class="skills-icon"
+							src={babel}
+							alt="Babel"
+						/>
+						<img
+							class="skills-icon"
+							src={nodejs}
+							alt="Node.js"
+						/>
+						<img
+							class="skills-icon"
+							src={expressjs}
+							alt="Express.js"
+						/>
+						<img
+							class="skills-icon"
+							src={heroku}
+							alt="Express.js"
+						/>
+						<img
+							class="skills-icon"
+							src={mysql}
+							alt="MySQL"
+						/>
+						<img
+							class="skills-icon"
+							src={mongodb}
+							alt="MongoDB"
+						/>
+						<img
+							class="skills-icon"
+							src={graphql}
+							alt="GraphQL"
+						/>
+						<img
+							class="skills-icon"
+							src={photoshop}
+							alt="Adobe Photoshop"
+						/>
+						<img
+							class="skills-icon"
+							src={illustrator}
+							alt="Adobe Illustrator"
+						/>
+						<img
+							class="skills-icon"
+							src={premierePro}
+							alt="Adobe Premiere Pro"
+						/>
+						<img
+							class="skills-icon"
+							src={adobexd}
+							alt="AdobeXd"
+						/>
+						<img
+							class="skills-icon"
+							src={figma}
+							alt="Figma"
+						/>
+				</section>
 			</section>
 		</div>
 	);
