@@ -5,15 +5,14 @@
 * {
 	box-sizing: border-box;
 }
+
 /* Color scheme for website */
 :root {
 	--amaranth-pink: #eda2c0;
 	--charcoal: #353a47;
 	--almond: #f2e5d7;
 	--magenta: #8e4162;
-	--mint: #60ce9c;
-	--light-green: #B9D09F;
-	
+	--mint: #60ce9c;	
 }
 
 /*  Scrolls smoothly to section when clicking on nav links */
@@ -29,9 +28,6 @@ main {
 }
 
 header {
-	/* display: flex; */
-	/* justify-content: space-between; */
-	/* width: 100%; */
 	background-color: var(--charcoal);
 }
 
@@ -43,10 +39,7 @@ h1 {
 	font-size: 3rem;
 	font-family: "Parisienne";
 	font-weight: 600;
-	/* margin-left: 3em; */
 	color: var(--amaranth-pink);
-	/* filter: drop-shadow(0 0 0.1rem #f78651); */
-	/* filter: drop-shadow(0 0 0.15rem rgb(153, 153, 153)); */
 }
 
 h2 {
@@ -54,7 +47,6 @@ h2 {
 	font-weight: 700;
 	font-family: 'Teko', sans-serif;
 	color: var(--charcoal);
-	/* filter: drop-shadow(0 0 0.1rem rgb(127, 127, 127)); */
 	letter-spacing: 0.1em;
 	margin-top: 2rem;
 	margin-bottom: 0.5rem;
@@ -65,7 +57,6 @@ h3 {
 	font-weight: 600;
 	font-family: 'Teko', sans-serif;
 	letter-spacing: 0.05em;
-	/* filter: drop-shadow(0 0 0.03rem #015733); */
 	color: var(--charcoal);
 	margin-top: 1rem;
 }
@@ -80,8 +71,6 @@ nav > a {
 	font-size: 1.5rem;
 	font-family: 'Montserrat', sans-serif;
 	margin: 1% 2rem;
-	/* margin-left: 3rem; */
-	/* margin: 0 3rem; */
 	color: var(--almond);
 }
 
@@ -108,26 +97,6 @@ footer > a:hover {
 	opacity: 0.6;
 }
 
-/* svg {
-	color: var(--light-blue);
-} */
-
-/* .passion-icon {
-  width: 30%;
-} */
-
-/* The sticky class is added to the navbar with JS when it reaches its scroll position */
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 90%;
-}
-
-/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
-/* main {
-  padding-top: 10%;
-} */
-
 .passion-icon {
 	width: 12rem;
 	margin: auto;
@@ -140,13 +109,7 @@ footer > a:hover {
 .skills-icon {
 	width: 5rem;
 	margin: 1.5rem;
-	/* margin: auto; */
 }
-
-/* .who-body,
-.passion-body {
-	font-size: 1.2rem;
-} */
 
 .who-body,
 .project-card {
@@ -187,7 +150,6 @@ footer > a:hover {
 }
 
 @media screen and (max-width: 1024px) {
-
 	.who-body,
 	.passion-header,
 	.passion-body,
@@ -201,11 +163,5 @@ footer > a:hover {
 	.passion-body {
 		margin-top: 2rem;
 	}
-
-	/* .skills-icon {
-		margin: 1.3rem;
-	} */
-
-	
 }
 

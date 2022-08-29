@@ -75,8 +75,7 @@ const About = () => {
 						/>
 						<h3 className="passion-header text-center">CODING</h3>
 						<p className="passion-body">
-							{/* I love coding because not only does it let me design websites and applications, it also challenges me to think in new perspectives. */}
-							Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium
+							I love coding because I enjoy constantly learning something new, especially to keep up with the new technology. Also, coding rewires my brain to think more logically and satisfies my love for problem-solving.
 						</p>
 					</article>
 					<article className="passion-card flex flex-col">
@@ -87,7 +86,7 @@ const About = () => {
 						/>
 						<h3 className="passion-header text-center">DESIGN</h3>
 						<p className="passion-body">
-							Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium
+							I've always been fond of designing because I embrace the whole process of design methodology. Iteration may seem neverending, but it's quite satisfying to create something and build upon it gradually to see its final form.
 						</p>
 					</article>
 					<article className="passion-card flex flex-col">
@@ -98,8 +97,7 @@ const About = () => {
 						/>
 						<h3 className="passion-header text-center">GAMES</h3>
 						<p className="passion-body">
-							{/* Since childhood, I've been a big fan of games since I love to be immersed in another world. I really love it when the game offers world building, puzzles, storytelling, and more. Games definitely play as a major source in my creativity.  */}
-							Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium
+							Nothing really beats being immersed in another world, and games give me that experience. I absolutely adore games that are world-building, fantasy, and action-adventure. Games have been the major source to my creativity.
 						</p>
 					</article>
 				</section>
