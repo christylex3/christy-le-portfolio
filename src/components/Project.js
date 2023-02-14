@@ -1,66 +1,28 @@
 import React from "react";
+import gitHub from "../assets/contact/icons8-github-filled.svg";
+import { removeHyphensAndCapitalize } from "../utils/helpers";
 
-import recipeFinder from "../images/recipefinder.png";
-import sadLibs from "../images/sadLibs.jpg";
-import techblog from "../images/techblog.png";
-import weatherDashboard from "../images/weather-dashboard.jpg";
+function Project({project}) {
+    const { name, description, link, repo } = project;
 
-const Project = () => {
-	return (
-		<div>
-			<h2>WORK</h2>
-			<section className="project-gallery flex justify-between flex-col lg:flex-row">
-				<article className="project-card">
-					<a
-						href="https://mike-gonz0.github.io/sadLibs/"
-						target="_blank"
-						rel="noreferrer"
-					>
-						<h3>sadLibs</h3>
-						<img src={sadLibs} alt="sadLibs" />
-					</a>
-				</article>
-				<article className="project-card">
-					<a
-						href="https://salty-island-34746.herokuapp.com/"
-						target="_blank"
-						rel="noreferrer"
-					>
-						<h3>Recipe Finder</h3>
-						<img
-							src={recipeFinder}
-							alt="Recipe Finder"
-						/>
-					</a>
-				</article>
-			</section>
-			<section className="project-gallery flex justify-between flex-col lg:flex-row">
-			<article className="project-card">
-					<a
-						href="https://christylex3.github.io/weather-dashboard/"
-						target="_blank"
-						rel="noreferrer"
-					>
-						<h3>Weather Dashboard</h3>
-						<img src={weatherDashboard} alt="Weather Dashboard" />
-					</a>
-				</article>
-				<article className="project-card">
-					<a
-						href="https://simply-tech-blog.herokuapp.com/"
-						target="_blank"
-						rel="noreferrer"
-					>
-						<h3>Tech Blog</h3>
-						<img
-							src={techblog}
-							alt="The Tech Blog"
-						/>
-					</a>
-				</article>
-			</section>
-		</div>
+    return (
+		<section className="project" key={name}>
+			<img
+				id="project-img"
+				src={require(`../assets/projects/${name}.jpg`)}
+				alt={removeHyphensAndCapitalize(name)}
+			/>
+			<article id="project-info">
+				<h3>
+					<a href={link}>{removeHyphensAndCapitalize(name)}</a>
+				</h3>
+				<p>{description}</p>
+				<a href={repo} target="_blank" rel="noreferrer">
+					<img className="mt-2" src={gitHub} alt={repo} />
+				</a>
+			</article>
+		</section>
 	);
-};
+}
 
 export default Project;

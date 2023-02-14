@@ -1,22 +1,33 @@
-import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
-import Home from "./pages/Home";
-import Work from "./pages/Work";
+import React, { useState } from "react";
 import Header from "./components/Header";
+import Nav from "./components/Nav";
+import Page from "./components/Page";
 import Footer from "./components/Footer";
 import "./App.css";
 
 function App() {
+	const [pages] = useState([
+		{ name: "about me" },
+		{ name: "portfolio" },
+		{ name: "contact" },
+		{ name: "resume" },
+	]);
+
+	const [currentPage, setCurrentPage] = useState(pages[0]);
+
 	return (
-		<Router>
+		<div>
+			<Nav
+				pages={pages}
+				setCurrentPage={setCurrentPage}
+				currentPage={currentPage}
+			></Nav>
 			<Header />
-			<Routes>
-				<Route path="/christy-le-portfolio" element={<Home />} />
-				<Route path="/christy-le-portfolio/work" element={<Work />} />
-			</Routes>
+			<main>
+				<Page currentPage={currentPage}></Page>
+			</main>
 			<Footer />
-		</Router>
+		</div>
 	);
 }
 
