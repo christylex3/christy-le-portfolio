@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import Header from "./components/Header";
-import Nav from "./components/Nav";
-import Page from "./components/Page";
-import Footer from "./components/Footer";
+import Header from "./components/Header/Header";
+import Nav from "./components/Nav/Nav";
+import Page from "./components/Page/Page";
+import Footer from "./components/Footer/Footer";
 import "./App.css";
 
 function App() {
@@ -23,7 +23,7 @@ function App() {
 				currentPage={currentPage}
 			></Nav>
 			<Header />
-			<main>
+			<main className="bg-gradient-to-r from-slate-800 to-slate-600 text-white flex justify-center">
 				<Page currentPage={currentPage}></Page>
 			</main>
 			<Footer />

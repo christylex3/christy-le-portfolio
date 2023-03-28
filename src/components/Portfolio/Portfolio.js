@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Project from "./Project";
+import Project from "../Project/Project";
 
 function Portfolio() {
 	const [projects] = useState([
@@ -14,7 +14,7 @@ function Portfolio() {
 			// fix link for this
 			name: "recipe-finder",
 			description: "MERN Stack",
-			link: "",
+			link: "https://simply-recipe-finder.herokuapp.com/",
 			repo: "https://github.com/christylex3/recipefinder",
 		},
 		{
@@ -30,13 +30,12 @@ function Portfolio() {
 			link: "",
 			repo: "https://github.com/christylex3/tech-blog",
 		},
-		// {
-		// 	// fix link for this
-		// 	name: "level-up-coding",
-		// 	description: "MERN Stack",
-		// 	link: "",
-		// 	repo: "https://github.com/christylex3/Level-Up-Coding",
-		// },
+		{
+			name: "level-up-coding",
+			description: "MERN Stack",
+			link: "https://level-up-coding.herokuapp.com/",
+			repo: "https://github.com/christylex3/Level-Up-Coding",
+		},
 	])
 
 	return (

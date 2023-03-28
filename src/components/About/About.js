@@ -1,14 +1,14 @@
 import React from "react";
 
 // My profile picture
-import christy_le from "../assets/profile/christy-le.jpg";
+import christy_le from "../../assets/profile/christy-le.jpg";
 
 function About() {
 	return (
-		<section className="flex flex-wrap sm:flex-col md:flex-row justify-center content-center space-between ml-5 mr-5 profile">
-			<article className="flex flex-col m-5" id="profile-text">
-				<h2 className="page-title pt-2 pb-3">About Me</h2>
-				<p>
+		<section className="flex flex-wrap flex-col md:flex-row justify-center content-center mx-8 max-w-3xl">
+			<article className="flex flex-col mx-5 sm:my-5">
+				<h2 className="flex flex-wrap justify-center my-3 text-3xl">About Me</h2>
+				<p className="text-lg">
 					Self-motivated full-stack developer with a background in
 					direct sales marketing to build rapports and to generate
 					outstanding event sales. Received the certificate in Full
@@ -20,20 +20,16 @@ function About() {
 					communicative, and always eager to learn.
 				</p>
 				<br />
-				<p>
+				<p className="text-lg">
 					Currently learning Java, Python, and C+ from the
 					continuation course of Georgia Tech's coding bootcamp.
 				</p>
 			</article>
 			<img
-				className="m-5"
-				id="profile-img"
+				className="mx-5 mb-10 px-3 rounded-full object-cover w-full md:w-3/4"
 				src={christy_le}
 				alt="CHRISTY LE"
 			/>
-
-			{/* <h2 className="flex justify-center mt-40">Passion</h2>
-			<section className="flex flex-wrap sm:flex-col md:flex-row justify-center space-between ml-5 mr-5 skills"></section> */}
 		</section>
 	);
 }

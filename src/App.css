@@ -1,11 +1,11 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Source+Sans+Pro:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
 
 * {
 	box-sizing: border-box;
-	font-family: 'Berkshire Swash', cursive;;
+	font-family: 'Quicksand', sans-serif;
 }
 
 :root {
@@ -88,8 +88,6 @@ p {
 }
 
 .page {
-	/* Later for one-page scrolling */
-	/* height: 100vh; */
 	background-image: linear-gradient(to right, var(--navy-blue) , var(--fiord));
 }
 
@@ -130,7 +128,6 @@ p {
 	position: absolute;
 	display: flex;
 	flex-direction: column;
-	/* justify-content: center; */
 	align-items: center;
 	opacity: 0;
 	top: 0px;
@@ -186,4 +183,49 @@ p {
 	#project-info > h3 {
 		font-size: 1.8em;
 	}
+} */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
+
+* {
+	box-sizing: border-box;
+	font-family: "Quicksand", sans-serif;
 }
+
+nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    /* gap: 2rem; */
+    transition: 1s;
+    transform: translateX(100vw);
+}
+
+.nav-close-btn {
+    cursor: pointer;
+    color: white;
+    visibility: visible;
+    opacity: 1;
+    position: absolute;
+    top: 2rem;
+    right: 2.3rem;
+}
+
+.responsive_nav {
+    transform: none;
+}
+
+.underline-gradient:hover {
+	text-decoration: underline;
+	text-decoration-color: linear-gradient(rgb(56, 189, 248), rgb(186, 230, 253));
+}
+
+/* .hero-image {
+	background-image: url("./assets/cover/mountains-square.jpg");
+	width: 100%;
+	height: 75%;
+	object-fit: cover;
+} */
