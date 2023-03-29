@@ -27,15 +27,15 @@ function Nav(props) {
 					<FaTimes />
 				</button>
 				<ul className="flex flex-col bg-black w-full h-screen gap-16 text-4xl uppercase items-center justify-center font-semibold z-10">
-					{pages.map((Page) => (
+					{pages.map((page) => (
 						<li
 							className={`hover:text-blue-500 cursor-pointer ${
-								currentPage.name === Page.name && "navActive"
+								currentPage.name === page.name && "navActive"
 							}`}
-							key={Page.name}
+							key={page.name}
 						>
-							<span onClick={() => setCurrentPage(Page)}>
-								{Page.name}
+							<span onClick={() => setCurrentPage(page)}>
+								{page.name}
 							</span>
 						</li>
 					))}
