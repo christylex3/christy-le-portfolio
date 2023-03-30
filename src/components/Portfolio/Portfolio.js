@@ -44,7 +44,7 @@ function Portfolio() {
 	return (
 		<section className="mx-8 sm:my-8">
 			<h2 className="flex flex-wrap justify-center my-3 text-3xl">Portfolio</h2>
-			<article className="flex flex-wrap-reverse flex-row-reverse justify-center">
+			<article className="flex flex-wrap-reverse flex-row-reverse justify-center max-w-[1200px]">
 				{projects.map((project, idx) => (
 					<Project 
 						project={project}

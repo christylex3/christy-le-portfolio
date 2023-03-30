@@ -12,7 +12,7 @@ function Nav(props) {
 
 	return (
 		<header className="sticky top-0 bg-black text-white md:flex md:justify-between relative z-50">
-			<h1 className="text-3xl font-bold uppercase text-center px-5 py-3">
+			<h1 className="text-3xl font-bold uppercase text-center px-5 py-3 hover:cursor-pointer" onClick={() => setCurrentPage("about me")}>
 				Christy Le
 			</h1>
 			<nav

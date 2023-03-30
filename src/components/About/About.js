@@ -5,7 +5,7 @@ import christy_le from "../../assets/profile/christy-le.jpg";
 
 function About() {
 	return (
-		<section className="flex flex-wrap flex-col md:flex-row justify-center content-center mx-8 max-w-3xl">
+		<section className="flex flex-wrap flex-col md:flex-row justify-center content-center mx-8 max-w-4xl">
 			<article className="flex flex-col mx-5 sm:my-5">
 				<h2 className="flex flex-wrap justify-center my-3 text-3xl">About Me</h2>
 				<p className="text-lg">

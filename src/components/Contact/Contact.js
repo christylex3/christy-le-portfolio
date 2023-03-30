@@ -40,11 +40,11 @@ function Contact() {
 			<h2 className="flex justify-center mt-8 mb-3 text-3xl">
 				Contact Me!
 			</h2>
-			<form id="contact-form" className="flex flex-col w-[350px]">
-				<div className="flex flex-col my-1">
+			<form id="contact-form" className="flex flex-col mb-8">
+				<div className="flex flex-col my-1 w-[350px] lg:w-[500px]">
 					{/* <label htmlFor="name">Name:</label> */}
 					<input
-						className="rounded-lg px-3 py-1 text-slate-900 font-medium text-lg"
+						className="rounded-lg px-3 py-1 text-slate-900 font-medium text-lg "
 						type="text"
 						name="name"
 						placeholder="Name"
@@ -81,12 +81,12 @@ function Contact() {
 								{errorMsg}
 							</p>
 						</div>
-						<button className="bg-blue-500 text-white font-bold rounded-full py-3 my-5 shadow cursor-not-allowed opacity-50">
+						<button className="bg-slate-600 text-white font-bold rounded-full py-3 my-5 shadow cursor-not-allowed w-[300px] flex justify-center self-center text-opacity-50">
 							Submit
 						</button>
 					</>
 				) : (
-					<button className="submit bg-blue-500 text-white hover:bg-blue-700 font-bold rounded-full py-3 my-5 shadow">
+					<button className="submit bg-gradient-to-r from-black to-cyan-600 hover:from-white hover:to-yellow-500 text-white hover:bg-blue-700 hover:text-black text-white font-bold rounded-full py-3 my-5 drop-shadow text-lg w-[300px] flex justify-center self-center ">
 						Submit
 					</button>
 				)}
