@@ -1,13 +1,10 @@
 import React, { useRef } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-import logo from "../../assets/logo/cyl-logo.svg";
-// import { Link, useNavigate } from "react-router-dom";
 
 function Nav(props) {
 	const { pages = [], setCurrentPage, currentPage } = props;
 
 	const navRef = useRef();
-	const titleRef = useRef();
 
 	const showNavbar = () => {
 		navRef.current.classList.toggle("responsive_nav");
@@ -34,7 +31,7 @@ function Nav(props) {
 							}`}
 							key={page.name}
 						>
-							<span onClick={() => setCurrentPage(page)}>
+							<span onClick={() => {setCurrentPage(page); showNavbar()}}>
 								{page.name}
 							</span>
 						</li>

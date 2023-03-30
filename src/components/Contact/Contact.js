@@ -36,42 +36,60 @@ function Contact() {
 	};
 
 	return (
-		<section className="flex flex-col justify-items-center min-w-sm">
-			<h2 className="flex justify-center pt-5">Contact Me!</h2>
-			<form id="contact-form" className="m-5 flex flex-col">
-				<div className="flex flex-col">
-					<label htmlFor="name">Name:</label>
+		<section className="flex flex-col justify-center items-center w-full max-w-3xl">
+			<h2 className="flex justify-center mt-8 mb-3 text-3xl">
+				Contact Me!
+			</h2>
+			<form id="contact-form" className="flex flex-col w-[350px]">
+				<div className="flex flex-col my-1">
+					{/* <label htmlFor="name">Name:</label> */}
 					<input
+						className="rounded-lg px-3 py-1 text-slate-900 font-medium text-lg"
 						type="text"
 						name="name"
+						placeholder="Name"
 						defaultval={name}
 						onBlur={handleChange}
 					/>
 				</div>
-				<div className="flex flex-col">
-					<label htmlFor="email">Email address:</label>
+				<div className="flex flex-col my-1">
+					{/* <label htmlFor="email">Email address:</label> */}
 					<input
+						className="rounded-lg px-3 py-1 text-slate-900 font-medium text-lg"
+						placeholder="Email address"
 						type="email"
 						name="email"
 						defaultval={email}
 						onBlur={handleChange}
 					/>
 				</div>
-				<div className="flex flex-col">
-					<label htmlFor="message">Message:</label>
+				<div className="flex flex-col my-1">
+					{/* <label htmlFor="message">Message:</label> */}
 					<textarea
+						className="rounded-lg px-3 py-1 text-slate-900 font-medium text-lg"
+						placeholder="Message"
 						name="message"
 						rows="5"
 						defaultval={message}
 						onBlur={handleChange}
 					/>
 				</div>
-				{errorMsg && (
-					<div>
-						<p className="error-text">{errorMsg}</p>
-					</div>
+				{errorMsg ? (
+					<>
+						<div>
+							<p className="error-text text-red-500 text-lg font-medium">
+								{errorMsg}
+							</p>
+						</div>
+						<button className="bg-blue-500 text-white font-bold rounded-full py-3 my-5 shadow cursor-not-allowed opacity-50">
+							Submit
+						</button>
+					</>
+				) : (
+					<button className="submit bg-blue-500 text-white hover:bg-blue-700 font-bold rounded-full py-3 my-5 shadow">
+						Submit
+					</button>
 				)}
-				<button className="submit bg-blue-500 text-white hover:bg-blue-700 font-bold rounded-full py-3 my-5 shadow">Submit</button>
 			</form>
 		</section>
 	);
