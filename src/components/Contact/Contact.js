@@ -86,7 +86,7 @@ function Contact() {
 						</button>
 					</>
 				) : (
-					<button className="submit bg-gradient-to-r from-black to-cyan-600 hover:from-white hover:to-yellow-500 text-white hover:bg-blue-700 hover:text-black text-white font-bold rounded-full py-3 my-5 drop-shadow text-lg w-[300px] flex justify-center self-center ">
+					<button className="submit bg-gradient-to-r from-black to-blue-400 hover:from-white hover:to-yellow-500 text-white hover:bg-blue-700 hover:text-black text-white font-bold rounded-full py-3 my-5 drop-shadow text-lg w-[250px] flex justify-center self-center ">
 						Submit
 					</button>
 				)}

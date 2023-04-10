@@ -4,8 +4,9 @@ function Footer() {
 	return (
 		<footer className="bg-black flex flex-col flex-wrap-reverse items-center justify-center p-3 relative md:flex-row md:flex-wrap">
 			{/* <section className="flex justify-between items-center max-w-3xl p-2"> */}
-				<div className="flex gap-8 md:gap-5 m-1 md:absolute md:right-5">
-					{/* Phone */}
+			<div className="flex gap-8 md:gap-5 m-1 md:absolute md:right-5">
+				{/* Phone */}
+				<a href="tel:770-843-6811">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						viewBox="0 0 48 48"
@@ -29,8 +30,9 @@ function Footer() {
 							/>
 						</g>
 					</svg>
-					{/* Gmail */}
-                    <a href="mailto: christylex3@gmail.com">
+				</a>
+				{/* Gmail */}
+				<a href="mailto: christylex3@gmail.com">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						viewBox="0 0 30 30"
@@ -42,25 +44,13 @@ function Footer() {
 							d="M 4 5 C 2.9069372 5 2 5.9069372 2 7 L 2 23 C 2 24.093063 2.9069372 25 4 25 L 26 25 C 27.093063 25 28 24.093063 28 23 L 28 7 C 28 5.9069372 27.093063 5 26 5 L 4 5 z M 6.6992188 7 L 23.300781 7 L 15 13.134766 L 6.6992188 7 z M 5 9.4746094 L 15 16.865234 L 25 9.4746094 L 25 23 L 5 23 L 5 9.4746094 z"
 						/>
 					</svg>
-                    </a>
-					{/* LinkedIn */}
-					<svg
-						xmlns="http://www.w3.org/2000/svg"
-						viewBox="0 0 48 48"
-						width="30px"
-						height="30px"
-					>
-						<path
-							fill="#fff"
-							d="M24 4A20 20 0 1 0 24 44A20 20 0 1 0 24 4Z"
-						/>
-						<path
-							fill="#000"
-							d="M14 19H18V34H14zM15.988 17h-.022C14.772 17 14 16.11 14 14.999 14 13.864 14.796 13 16.011 13c1.217 0 1.966.864 1.989 1.999C18 16.11 17.228 17 15.988 17zM35 24.5c0-3.038-2.462-5.5-5.5-5.5-1.862 0-3.505.928-4.5 2.344V19h-4v15h4v-8c0-1.657 1.343-3 3-3s3 1.343 3 3v8h4C35 34 35 24.921 35 24.5z"
-						/>
-					</svg>
-        
-					{/* GitHub */}
+				</a>
+				{/* GitHub */}
+				<a
+					href="https://github.com/christylex3"
+					target="_blank"
+					rel="noreferrer"
+				>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						viewBox="0 0 48 48"
@@ -88,10 +78,33 @@ function Footer() {
 							d="M24,4C13,4,4,13,4,24s9,20,20,20s20-9,20-20S35,4,24,4z M24,40c-8.8,0-16-7.2-16-16S15.2,8,24,8 s16,7.2,16,16S32.8,40,24,40z"
 						/>
 					</svg>
-				</div>
-                <p className="flex text-white text-lg md:text-xl font-semibold pt-2 md:p-0">
-					© Christy Le 2023
-				</p>
+				</a>
+				{/* LinkedIn */}
+				<a
+					href="https://www.linkedin.com/in/christy-le-316960209/"
+					target="_blank"
+					rel="noreferrer"
+				>
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						viewBox="0 0 48 48"
+						width="30px"
+						height="30px"
+					>
+						<path
+							fill="#fff"
+							d="M24 4A20 20 0 1 0 24 44A20 20 0 1 0 24 4Z"
+						/>
+						<path
+							fill="#000"
+							d="M14 19H18V34H14zM15.988 17h-.022C14.772 17 14 16.11 14 14.999 14 13.864 14.796 13 16.011 13c1.217 0 1.966.864 1.989 1.999C18 16.11 17.228 17 15.988 17zM35 24.5c0-3.038-2.462-5.5-5.5-5.5-1.862 0-3.505.928-4.5 2.344V19h-4v15h4v-8c0-1.657 1.343-3 3-3s3 1.343 3 3v8h4C35 34 35 24.921 35 24.5z"
+						/>
+					</svg>
+				</a>
+			</div>
+			<p className="flex text-white text-lg md:text-xl font-semibold pt-2 md:p-0">
+				© Christy Le 2023
+			</p>
 			{/* </section> */}
 		</footer>
 	);

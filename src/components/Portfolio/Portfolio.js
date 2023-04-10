@@ -36,7 +36,8 @@ function Portfolio() {
 		{
 			name: "cozia",
 			description: "MERN Stack",
-			link: "https://cozia.herokuapp.com/",
+			link: "https://gocozia.com/",
+			// link: "https://cozia.herokuapp.com/",
 			repo: "https://github.com/christylex3/cozia",
 		},
 	])
