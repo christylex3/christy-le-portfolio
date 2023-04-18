@@ -36,7 +36,7 @@ function Contact() {
 	};
 
 	return (
-		<section className="flex flex-col justify-center items-center w-full max-w-3xl">
+		<section className="flex flex-col justify-center items-center w-full h-screen max-w-3xl">
 			<h2 className="flex justify-center mt-8 mb-3 text-3xl">
 				Contact Me!
 			</h2>

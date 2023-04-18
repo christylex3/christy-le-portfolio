@@ -1,194 +1,11 @@
-/* @tailwind base;
-@tailwind components;
-@tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
-
-* {
-	box-sizing: border-box;
-	font-family: 'Quicksand', sans-serif;
-}
-
-:root {
-	--swiss-coffee: #dcd4d7;
-	--bermuda-gray: #6C7DA5;
-	--navy-blue: #0F1628;
-	--oxford-blue: #344453;
-	--fiord: #40526F;
-	--casper: #B1C5D1;
-	--nepal: #95B0C0;
-}
-
-html {
-	scroll-behavior: smooth;
-	color: var(--bermuda-gray);
-	background-color: var(--navy-blue);
-}
-
-header {
-	position: relative;
-}
-
-nav {
-	background-color: var(--navy-blue);
-	top: 0;
-}
-
-nav > ul > li {
-	color: var(--oxford-blue);
-}
-
-nav > ul > li:hover {
-	color: var(--bermuda-gray);
-}
-
-h1 {
-	text-shadow: 2px 2px 5px var(--bermuda-gray);
-}
-
-h1, h3 {
-	color: var(--oxford-blue);
-	text-shadow: 2px 2px 5px var(--casper);
-}
-
-h2 {
-	font-size: 2em;
-}
-
-h2, p, .navActive {
-	color: var(--casper);
-}
-
-p {
-	font-family: 'Source Sans Pro', sans-serif;
-}
-
-.hero-text {
-	position: absolute;
-	text-align: center;
-	top: 44%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-}
-
-.hero-text > h1 {
-	font-size: 2.5em;
-}
-
-.hero-text > p {
-	font-style: italic;
-	font-size: 1em;
-	color: var(--swiss-coffee);
-	text-shadow: 2px 2px 5px var(--fiord);
-}
-
-.hero {
-	object-fit: cover;
-	height: 95vh;
-	width: 100vw;
-}
-
-.page {
-	background-image: linear-gradient(to right, var(--navy-blue) , var(--fiord));
-}
-
-.page-title {
-	display: flex;
-	flex: wrap;
-	justify-content: center;
-}
-
-.project {
-	position: relative;
-	width: 100%;
-	max-width: 500px;
-	margin: 2%;
-}
-
-#profile-img {
-	vertical-align: middle;
-	object-fit: cover;
-	width: 85%;
-	height: 100%;
-	border-radius: 50%;
-	box-shadow: 2px 2px 5px var(--fiord);
-
-}
-
-#profile-text {
-	color: var(--swiss-coffee);
-}
-
-#project-img {
-	position: relative;
-	width: 100%;
-	height: 100%;
-}
-
-#project-info {
-	position: absolute;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	opacity: 0;
-	top: 0px;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-    padding: 5%;
-	z-index: 100;
-	transition: all .5s ease-in-out;
-}
-
-#project-info:hover {
-	opacity: 0.95;
-	border: 12px solid var(--nepal);
-	background-color: aliceblue;
-}
-
-#project-info > h3 {
-	font-size: 1.5em;
-}
-
-#project-info > h3:hover {
-	text-shadow: 2px 2px 5px var(--nepal);
-	color: var(--nepal);
-}
-
-#project-info > a > img:hover {
-	background-color: var(--casper);
-}
-
-@media screen and (min-width: 768px) {
-
-	.page-title {
-		justify-content: start;
-	}
-
-	#profile-img {
-		max-width: 30%;
-	}
-
-	#profile-text {
-		width: 40%;
-	}
-
-	#project-info {
-		padding: 8%;
-	}
-
-	#project-info:hover {
-		border: 25px solid var(--nepal);
-	}
-
-	#project-info > h3 {
-		font-size: 1.8em;
-	}
-} */
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono&family=Macondo&family=Quicksand:wght@400;500;600&display=swap');
+
+/* font-family: 'Fira Mono', monospace;
+font-family: 'Macondo', cursive;
+font-family: 'Quicksand', sans-serif; */
 
 * {
 	box-sizing: border-box;
@@ -202,6 +19,10 @@ nav {
     /* gap: 2rem; */
     transition: 1s;
     transform: translateX(100vw);
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Macondo', cursive;
 }
 
 .nav-close-btn {

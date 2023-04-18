@@ -5,10 +5,10 @@ import christy_le from "../../assets/profile/christy-le.jpg";
 
 function About() {
 	return (
-		<section className="flex flex-wrap flex-col md:flex-row justify-center content-center mx-8 max-w-4xl">
-			<article className="flex flex-col mx-5 sm:my-5">
-				<h2 className="flex flex-wrap justify-center my-3 text-3xl">About Me</h2>
-				<p className="text-lg">
+		<section className="max-w-4xl w-full flex flex-col items-center">
+			<article className="text-lg flex flex-col items-center">
+				<h2 className="text-4xl py-8">About Me</h2>
+				<p className="px-5">
 					Self-motivated full-stack developer with a background in
 					direct sales marketing to build rapports and to generate
 					outstanding event sales. Received the certificate in Full
@@ -20,7 +20,7 @@ function About() {
 					communicative, and always eager to learn.
 				</p>
 				<br />
-				<p className="text-lg">
+				<p className="px-5 mb-8">
 					Currently learning Java, Python, and C+ from the
 					continuation course of Georgia Tech's coding bootcamp.
 				</p>

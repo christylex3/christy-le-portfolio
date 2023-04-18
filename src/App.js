@@ -1,33 +1,38 @@
-import React, { useState } from "react";
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./components/Header/Header";
 import Nav from "./components/Nav/Nav";
-import Page from "./components/Page/Page";
+import Home from "./pages/Home";
 import Footer from "./components/Footer/Footer";
 import "./App.css";
+import About from "./components/About/About";
+import Portfolio from "./components/Portfolio/Portfolio";
 
 function App() {
-	const [pages] = useState([
-		{ name: "about me" },
-		{ name: "portfolio" },
-		{ name: "contact" },
-		{ name: "resume" },
-	]);
+	// const [pages] = useState([
+	// 	{ name: "about me" },
+	// 	{ name: "portfolio" },
+	// 	{ name: "contact" },
+	// 	{ name: "resume" },
+	// ]);
 
-	const [currentPage, setCurrentPage] = useState(pages[0]);
+	// const [currentPage, setCurrentPage] = useState(pages[0]);
 
 	return (
-		<div>
-			<Nav
-				pages={pages}
-				setCurrentPage={setCurrentPage}
-				currentPage={currentPage}
-			></Nav>
+		// <Router>
+		// 	{/* <Nav /> */}
+		// 	<Routes>
+		// 		<Route path="/christy-le-portfolio" element={<Home />} />
+		// 	</Routes>
+		// 	<Footer />
+		// </Router>
+		<main className="bg-[#1C2836] text-white">
+			<Nav />
 			<Header />
-			<main className="bg-gradient-to-r from-slate-800 to-slate-600 text-white flex justify-center">
-				<Page currentPage={currentPage}></Page>
-			</main>
-			<Footer />
-		</div>
+			<About />
+			<Portfolio />
+
+		</main>
 	);
 }
 
