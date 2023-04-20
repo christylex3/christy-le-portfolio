@@ -7,6 +7,7 @@ import Footer from "./components/Footer/Footer";
 import "./App.css";
 import About from "./components/About/About";
 import Portfolio from "./components/Portfolio/Portfolio";
+import Contact from "./components/Contact/Contact";
 
 function App() {
 	// const [pages] = useState([
@@ -31,7 +32,7 @@ function App() {
 			<Header />
 			<About />
 			<Portfolio />
-
+			<Contact />
 		</main>
 	);
 }

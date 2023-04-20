@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Fade from "react-reveal/Fade";
 import Project from "../Project/Project";
 
 function Portfolio() {
@@ -43,9 +44,11 @@ function Portfolio() {
 	])
 
 	return (
-		<section className="flex flex-col items-center mx-8 sm:my-8 w-full">
-			<h2 className="flex flex-wrap justify-center my-3 text-3xl">Portfolio</h2>
-			<article className="flex flex-wrap-reverse flex-row-reverse justify-center items-center max-w-[1200px]">
+		<section className="flex flex-col items-center mx-auto max-w-4xl w-full">
+			<Fade top distance="40%" duration="1800">
+			<h2 className="text-4xl py-8 mt-20 text-center font-bold md:text-left drop-shadow text-orange-300">❀ PORTFOLIO ❀</h2>
+			</Fade>
+			<article className="flex flex-wrap-reverse flex-row-reverse justify-center items-center max-w-2/3 ">
 				{projects.map((project, idx) => (
 					<Project 
 						project={project}

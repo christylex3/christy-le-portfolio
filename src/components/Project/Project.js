@@ -6,11 +6,11 @@ function Project({ project }) {
 
 	return (
 		<section
-			className="project relative w-full max-w-[500px] m-3"
+			className="project relative m-3"
 			key={name}
 		>
 			<img
-				id="project-img relative w-full h-full object-cover"
+				id="project-img relative h-full object-cover"
 				src={require(`../../assets/projects/${name}.jpg`)}
 				alt={removeHyphensAndCapitalize(name)}
 			/>

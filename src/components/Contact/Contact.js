@@ -2,47 +2,46 @@ import React, { useState } from "react";
 import { validateEmail } from "../../utils/helpers";
 
 function Contact() {
-	const [formState, setFormState] = useState({
-		name: "",
-		email: "",
-		message: "",
-	});
+	// const [formState, setFormState] = useState({
+	// 	name: "",
+	// 	email: "",
+	// 	message: "",
+	// });
 
-	const { name, email, message } = formState;
-	const [errorMsg, setErrorMsg] = useState("");
+	// const { name, email, message } = formState;
+	// const [errorMsg, setErrorMsg] = useState("");
 
-	const handleSubmit = (event) => {
-		event.preventDefault();
-		if (!errorMsg) {
-			console.log("Form submitted!", formState);
-		}
-	};
+	// const handleSubmit = (event) => {
+	// 	event.preventDefault();
+	// 	if (!errorMsg) {
+	// 		console.log("Form submitted!", formState);
+	// 	}
+	// };
 
-	const handleChange = (event) => {
-		if (event.target.name === "email") {
-			const isValid = validateEmail(event.target.value);
-			!isValid ? setErrorMsg("Invalid email!") : setErrorMsg("");
-		} else {
-			!event.target.value.length
-				? setErrorMsg(`Please fill in ${event.target.name}!`)
-				: setErrorMsg("");
-		}
-		if (!errorMsg) {
-			setFormState({
-				...formState,
-				[event.target.name]: event.target.value,
-			});
-		}
-	};
+	// const handleChange = (event) => {
+	// 	if (event.target.name === "email") {
+	// 		const isValid = validateEmail(event.target.value);
+	// 		!isValid ? setErrorMsg("Invalid email!") : setErrorMsg("");
+	// 	} else {
+	// 		!event.target.value.length
+	// 			? setErrorMsg(`Please fill in ${event.target.name}!`)
+	// 			: setErrorMsg("");
+	// 	}
+	// 	if (!errorMsg) {
+	// 		setFormState({
+	// 			...formState,
+	// 			[event.target.name]: event.target.value,
+	// 		});
+	// 	}
+	// };
 
 	return (
-		<section className="flex flex-col justify-center items-center w-full h-screen max-w-3xl">
-			<h2 className="flex justify-center mt-8 mb-3 text-3xl">
-				Contact Me!
+		<section className="flex flex-col justify-center items-center w-full max-w-4xl mx-auto">
+			<h2 className="text-4xl py-8 mt-20 text-center md:text-left font-bold drop-shadow text-orange-300">
+			❀ LET'S CONNECT ❀
 			</h2>
-			<form id="contact-form" className="flex flex-col mb-8">
+			{/* <form id="contact-form" className="flex flex-col mb-8">
 				<div className="flex flex-col my-1 w-[350px] lg:w-[500px]">
-					{/* <label htmlFor="name">Name:</label> */}
 					<input
 						className="rounded-lg px-3 py-1 text-slate-900 font-medium text-lg "
 						type="text"
@@ -53,7 +52,6 @@ function Contact() {
 					/>
 				</div>
 				<div className="flex flex-col my-1">
-					{/* <label htmlFor="email">Email address:</label> */}
 					<input
 						className="rounded-lg px-3 py-1 text-slate-900 font-medium text-lg"
 						placeholder="Email address"
@@ -64,7 +62,6 @@ function Contact() {
 					/>
 				</div>
 				<div className="flex flex-col my-1">
-					{/* <label htmlFor="message">Message:</label> */}
 					<textarea
 						className="rounded-lg px-3 py-1 text-slate-900 font-medium text-lg"
 						placeholder="Message"
@@ -90,7 +87,7 @@ function Contact() {
 						Submit
 					</button>
 				)}
-			</form>
+			</form> */}
 		</section>
 	);
 }

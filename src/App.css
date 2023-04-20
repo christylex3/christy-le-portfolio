@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Fira+Mono&family=Macondo&family=Quicksand:wght@400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fira+Mono&family=Macondo&family=Quicksand:wght@400;500;600;700&display=swap");
 
 /* font-family: 'Fira Mono', monospace;
 font-family: 'Macondo', cursive;
@@ -21,9 +21,6 @@ nav {
     transform: translateX(100vw);
 }
 
-h1, h2, h3, h4 {
-    font-family: 'Macondo', cursive;
-}
 
 .nav-close-btn {
     cursor: pointer;
@@ -44,6 +41,9 @@ h1, h2, h3, h4 {
 	text-decoration-color: linear-gradient(rgb(56, 189, 248), rgb(186, 230, 253));
 }
 
+#name {
+    font-family: 'Macondo', cursive;
+}
 /* .hero-image {
 	background-image: url("./assets/cover/mountains-square.jpg");
 	width: 100%;
