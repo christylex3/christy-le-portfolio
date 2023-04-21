@@ -12,7 +12,6 @@ function About() {
 					❀ ABOUT ME ❀
 				</h2>
 			</Fade>
-
 			<article className="flex flex-col md:flex-row mb-20">
 				<Fade left distance="40%" duration="2000">
 					<div className="text-lg text-slate-400 md:pr-5">

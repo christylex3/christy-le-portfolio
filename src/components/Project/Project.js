@@ -1,10 +1,13 @@
 import React from "react";
+import Fade from "react-reveal/Fade";
 import { removeHyphensAndCapitalize } from "../../utils/helpers";
 
 function Project({ project }) {
 	const { name, description, link, repo } = project;
 
 	return (
+		<Fade bottom distance="20%" duration="1500">
+
 		<section
 			className="project relative m-3"
 			key={name}
@@ -40,6 +43,8 @@ function Project({ project }) {
 				</a>
 			</article>
 		</section>
+		</Fade>
+
 	);
 }
 
