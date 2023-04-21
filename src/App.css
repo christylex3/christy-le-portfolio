@@ -12,37 +12,88 @@ font-family: 'Quicksand', sans-serif; */
 	font-family: "Quicksand", sans-serif;
 }
 
-nav {
-    position: fixed;
-    top: 0;
-    right: 0;
-    /* gap: 2rem; */
-    transition: 1s;
-    transform: translateX(100vw);
+.font-macondo {
+	font-family: "Macondo", cursive;
 }
 
+.font-fira-mono {
+	font-family: "Fira Mono", monospace;
+}
+
+/* .font-quicksand {
+    font-family: "Quicksand", sans-serif;
+} */
+
+nav {
+	position: fixed;
+	top: 0;
+	right: 0;
+	/* gap: 2rem; */
+	transition: 1s;
+	transform: translateX(100vw);
+}
 
 .nav-close-btn {
-    cursor: pointer;
-    color: white;
-    visibility: visible;
-    opacity: 1;
-    position: absolute;
-    top: 2rem;
-    right: 2.3rem;
+	cursor: pointer;
+	color: white;
+	visibility: visible;
+	opacity: 1;
+	position: absolute;
+	top: 2rem;
+	right: 2.3rem;
 }
 
 .responsive_nav {
-    transform: none;
+	transform: none;
 }
 
 .underline-gradient:hover {
 	text-decoration: underline;
-	text-decoration-color: linear-gradient(rgb(56, 189, 248), rgb(186, 230, 253));
+	text-decoration-color: linear-gradient(
+		rgb(56, 189, 248),
+		rgb(186, 230, 253)
+	);
 }
 
+.athens-gray {
+	color: #e5e7ea;
+}
+
+.bg-soft-black {
+	background-color: #101113;
+}
+
+.bg-shuttle-gray {
+	background-color: #5c697c;
+}
+
+.bg-manatee {
+	background-color: #938fa3;
+}
+
+.shuttle-gray {
+	color: #5c697c;
+}
+
+.manatee {
+	color: #938fa3;
+}
+
+.sea-pink {
+	color: #ee9d95;
+}
+
+.leaf-pink {
+	color: #ebbbcd;
+}
+
+.blue-gray {
+	color: #9fb8c2;
+}
+
+.section-head,
 #name {
-    font-family: 'Macondo', cursive;
+	font-family: "Macondo", cursive;
 }
 /* .hero-image {
 	background-image: url("./assets/cover/mountains-square.jpg");

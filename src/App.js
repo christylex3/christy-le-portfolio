@@ -27,7 +27,7 @@ function App() {
 		// 	</Routes>
 		// 	<Footer />
 		// </Router>
-		<main className="bg-[#1C2836] text-white">
+		<main className="bg-soft-black">
 			<Nav />
 			<Header />
 			<About />

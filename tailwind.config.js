@@ -5,7 +5,7 @@ module.exports = {
 		extend: {
 			backgroundImage: (theme) => ({
 				// mountains: "url(/src/assets/cover/mountains-square.jpg)",
-				flowers: "url(/src/assets/cover/zoltan-tasi-unsplash.jpg)",
+				flowers: "url(/src/assets/cover/yousef-alfuhigi-unsplash.jpg)",
 				// flowers: "url(/src/assets/cover/evie-s-unsplash.jpg)",
 			}),
 		},

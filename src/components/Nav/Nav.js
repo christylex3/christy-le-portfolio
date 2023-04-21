@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
+import logo from "../../assets/icon/Christy-Logo.png";
 
 function Nav(props) {
 	const { pages = [], setCurrentPage, currentPage } = props;
@@ -11,10 +12,11 @@ function Nav(props) {
 	};
 
 	return (
-		<header className="sticky top-0 bg-black text-white md:flex md:justify-between relative z-50">
-			<h1 className="text-3xl font-bold uppercase text-center px-5 py-3 hover:cursor-pointer" onClick={() => setCurrentPage("about me")}>
+		<header className="sticky top-0 bg-soft-black text-white md:flex md:justify-between relative z-50">
+			{/* <h1 className="text-3xl font-bold uppercase text-center px-5 py-3 font-macondo text-transparent bg-clip-text bg-gradient-to-b from-rose-500 to-slate-200 hover:cursor-pointer drop-shadow" onClick={() => setCurrentPage("about me")}>
 				Christy Le
-			</h1>
+			</h1> */}
+			<img className="text-center px-5 py-3 h-16 object-cover" src={logo} alt="Christy's Logo"></img>
 			<nav
 				className="flex flex-col w-full max-w-md min-h-screen z-50"
 				ref={navRef}
