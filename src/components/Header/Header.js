@@ -4,7 +4,7 @@ import RubberBand from "react-reveal/RubberBand";
 
 function Header() {
 	return (
-		<section className="relative bg-hero bg-fixed bg-cover object-cover bg-center w-full h-screen">
+		<section id="header-section" className="relative bg-hero bg-fixed bg-cover object-cover bg-center w-full h-screen">
 			<Reveal cascade>
 				<article className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center mb-20 p-8 pb-12 max-w-4xl rounded-lg w-full">
 					<h1 className="text-lg font-bold text-left md:text-2xl drop-shadow font-fira-mono">

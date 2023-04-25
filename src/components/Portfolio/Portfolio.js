@@ -44,7 +44,7 @@ function Portfolio() {
 	]);
 
 	return (
-		<section className="flex flex-col items-center mx-auto max-w-4xl w-full mb-28">
+		<section id="portfolio-section" className="flex flex-col items-center mx-auto max-w-4xl w-full mb-28">
 			<Fade top distance="40%" duration="1800">
 				<h2 className="section-head text-4xl py-8 mt-20 text-center font-bold md:text-left drop-shadow text-transparent bg-clip-text bg-gradient-to-b from-amber-500 to-slate-200">
 					❀ PORTFOLIO ❀

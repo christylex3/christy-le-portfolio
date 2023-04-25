@@ -12,6 +12,10 @@ font-family: 'Quicksand', sans-serif; */
 	font-family: "Quicksand", sans-serif;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 .font-macondo {
 	font-family: "Macondo", cursive;
 }

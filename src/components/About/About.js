@@ -6,7 +6,7 @@ import christy_le from "../../assets/profile/christy-le.jpg";
 
 function About() {
 	return (
-		<section className="flex flex-col max-w-4xl mx-auto px-7 md:px-0 min-h">
+		<section id="about-section" className="flex flex-col max-w-4xl mx-auto px-7 md:px-0 min-h">
 			<Fade top distance="40%" duration={2000}>
 				<h2 className="section-head text-4xl py-8 mt-20 text-center md:text-left font-bold drop-shadow text-transparent bg-clip-text bg-gradient-to-b from-amber-500 to-slate-200">
 					❀ ABOUT ME ❀
