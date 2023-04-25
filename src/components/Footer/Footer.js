@@ -102,7 +102,7 @@ function Footer() {
 					</svg>
 				</a>
 			</div>
-			<p className="flex text-white text-lg md:text-xl font-semibold pt-2 md:p-0">
+			<p className="flex text-white text-lg md:text-xl font-narrow pt-2 md:p-0 text-xs font-firamono">
 				© Christy Le 2023
 			</p>
 			{/* </section> */}

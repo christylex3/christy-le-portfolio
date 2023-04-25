@@ -36,8 +36,8 @@ function Contact() {
 	// };
 
 	return (
-		<section className="flex flex-col justify-center items-center w-full max-w-4xl mx-auto">
-			<h2 className="section-head text-4xl py-8 mt-20 text-center md:text-left font-bold drop-shadow text-rose-300 text-transparent bg-clip-text bg-gradient-to-b from-rose-500 to-slate-200">
+		<section className="flex flex-col justify-center items-center mx-auto bg-hero bg-fixed bg-cover bg-center w-full h-screen">
+			<h2 className="section-head text-4xl py-8 mt-20 text-center md:text-left font-bold drop-shadow max-w-4xl text-transparent bg-clip-text bg-gradient-to-b from-indigo-500 to-rose-500">
 			❀ LET'S CONNECT ❀
 			</h2>
 			{/* <form id="contact-form" className="flex flex-col mb-8">

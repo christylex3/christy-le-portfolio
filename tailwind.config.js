@@ -2,11 +2,14 @@
 module.exports = {
 	content: ["./src/**/*.{html,js}"],
 	theme: {
+		fontFamily: {
+			quicksand: ["Quicksand", "sans-serif"],
+			macondo: ["Merriweather", "cursive"],
+			firamono: ["Fira Mono", "monospace"],
+		},
 		extend: {
 			backgroundImage: (theme) => ({
-				// mountains: "url(/src/assets/cover/mountains-square.jpg)",
-				flowers: "url(/src/assets/cover/yousef-alfuhigi-unsplash.jpg)",
-				// flowers: "url(/src/assets/cover/evie-s-unsplash.jpg)",
+				hero: "url(/src/assets/cover/eberhard-grossgasteiger-unsplash.jpg)",
 			}),
 		},
 	},

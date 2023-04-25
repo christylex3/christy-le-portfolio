@@ -20,6 +20,22 @@ font-family: 'Quicksand', sans-serif; */
 	font-family: "Fira Mono", monospace;
 }
 
+.bg-sky-blue {
+	background-color:#BBD7E3;
+}
+
+.blossom-pink {
+	color: #DBD3D6;
+}
+
+.soft-green {
+	color: #9DAE7A;
+}
+
+.sky-blue {
+	color:#BBD7E3;
+}
+
 /* .font-quicksand {
     font-family: "Quicksand", sans-serif;
 } */
