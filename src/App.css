@@ -3,10 +3,6 @@
 @tailwind utilities;
 @import url("https://fonts.googleapis.com/css2?family=Fira+Mono&family=Macondo&family=Quicksand:wght@400;500;600;700&display=swap");
 
-/* font-family: 'Fira Mono', monospace;
-font-family: 'Macondo', cursive;
-font-family: 'Quicksand', sans-serif; */
-
 * {
 	box-sizing: border-box;
 	font-family: "Quicksand", sans-serif;
@@ -15,34 +11,6 @@ font-family: 'Quicksand', sans-serif; */
 html {
 	scroll-behavior: smooth;
 }
-
-.font-macondo {
-	font-family: "Macondo", cursive;
-}
-
-.font-fira-mono {
-	font-family: "Fira Mono", monospace;
-}
-
-.bg-sky-blue {
-	background-color:#BBD7E3;
-}
-
-.blossom-pink {
-	color: #DBD3D6;
-}
-
-.soft-green {
-	color: #9DAE7A;
-}
-
-.sky-blue {
-	color:#BBD7E3;
-}
-
-/* .font-quicksand {
-    font-family: "Quicksand", sans-serif;
-} */
 
 nav {
 	position: fixed;
@@ -75,49 +43,7 @@ nav {
 	);
 }
 
-.athens-gray {
-	color: #e5e7ea;
-}
-
-.bg-soft-black {
-	background-color: #101113;
-}
-
-.bg-shuttle-gray {
-	background-color: #5c697c;
-}
-
-.bg-manatee {
-	background-color: #938fa3;
-}
-
-.shuttle-gray {
-	color: #5c697c;
-}
-
-.manatee {
-	color: #938fa3;
-}
-
-.sea-pink {
-	color: #ee9d95;
-}
-
-.leaf-pink {
-	color: #ebbbcd;
-}
-
-.blue-gray {
-	color: #9fb8c2;
-}
-
 .section-head,
 #name {
 	font-family: "Macondo", cursive;
 }
-/* .hero-image {
-	background-image: url("./assets/cover/mountains-square.jpg");
-	width: 100%;
-	height: 75%;
-	object-fit: cover;
-} */

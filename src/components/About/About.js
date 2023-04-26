@@ -6,21 +6,21 @@ import christy_le from "../../assets/profile/christy-le.jpg";
 
 function About() {
 	return (
-		<section id="about-section" className="flex flex-col max-w-4xl mx-auto px-7 md:px-0 min-h">
+		<section id="about-section" className="flex flex-col max-w-4xl mx-auto px-7 md:px-0 min-h-screen">
 			<Fade top distance="40%" duration={2000}>
-				<h2 className="section-head text-4xl py-8 mt-20 text-center md:text-left font-bold drop-shadow text-transparent bg-clip-text bg-gradient-to-b from-amber-500 to-slate-200">
+				<h2 className="section-head text-4xl py-8 mt-20 text-center md:text-left font-bold drop-shadow">
 					❀ ABOUT ME ❀
 				</h2>
 			</Fade>
 			<article className="flex flex-col md:flex-row mb-20">
 				<Fade left distance="40%" duration={2000}>
-					<div className="text-lg md:text-xl md:pr-5 text-neutral-400">
+					<div className="text-lg md:text-xl md:pr-5">
 						<p>
 							Self-motivated full-stack developer with a
 							background in direct sales marketing to build
 							rapports and to generate outstanding event sales.
 							Received the certificate in{" "}
-							<span className="text-orange-200 hover:underline hover:cursor-pointer">
+							<span className="text-rose-600 font-semibold hover:underline hover:cursor-pointer">
 								<a href="download:">
 									Full Stack Flex Web Development
 								</a>
@@ -43,7 +43,7 @@ function About() {
 				</Fade>
 				<Fade right distance="40%" duration={2000}>
 					<img
-						className="rounded-lg object-cover w-full md:w-1/3 hover:cursor-pointer hover:sepia-0 sepia" 
+						className="rounded-lg object-cover w-full md:w-1/3 hover:cursor-pointer grayscale hover:grayscale-0" 
 						src={christy_le}
 						alt="CHRISTY LE"
 					/>

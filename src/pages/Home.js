@@ -8,7 +8,7 @@ import Nav from "../components/Nav/Nav";
 function Home() {
 
 	return (
-		<main className="bg-gradient-to-r from-slate-800 to-slate-600 text-white max-h-screen overflow-y-scroll overflow-x-hidden snap snap-y snap-mandatory">
+		<main className="max-h-screen overflow-y-scroll overflow-x-hidden">
 			<Nav />
 			<Header />
 			<About />

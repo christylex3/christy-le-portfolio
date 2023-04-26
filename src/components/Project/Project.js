@@ -9,20 +9,20 @@ function Project({ project }) {
 		<Fade bottom distance="20%" duration="1500">
 			<section className="project relative m-3" key={name}>
 				<img
-					id="project-img relative w-[200px] h-full object-cover"
+					className="relative max-w-4xl w-full h-full rounded-lg object-cover grayscale"
 					src={require(`../../assets/projects/${name}.jpg`)}
 					alt={removeHyphensAndCapitalize(name)}
 				/>
-				<article className="project-info absolute flex flex-col items-center justify-center opacity-0 top-0 bottom-0 left-0 right-0 p-5 z-5 transition duration-1000 ease-in-out hover:opacity-95 hover:bg-white hover:border-8 hover:border-stone-800 text-stone-800 text-xl drop-shadow">
-					<h3 className="font-bold  text-2xl md:text-3xl hover:text-yellow-500">
+				{/* <article className="project-info absolute flex flex-col items-center justify-center opacity-0 top-0 bottom-0 left-0 right-0 p-5 z-5 transition duration-1000 ease-in-out hover:opacity-95 hover:grayscale hover:border-8 hover:border-stone-800 text-stone-800 text-xl drop-shadow">
+					<h3 className="font-bold text-2xl md:text-3xl hover:text-yellow-500">
 						<a href={link} target="_blank" rel="noreferrer">
 							{removeHyphensAndCapitalize(name)}
 						</a>
 					</h3>
 					<p className="text-lg">{description}</p>
-					<a href={repo} target="_blank" rel="noreferrer">
+					<a href={repo} target="_blank" rel="noreferrer"> */}
 						{/* GitHub svg */}
-						<svg
+						{/* <svg
 							className="hover:fill-yellow-500"
 							fill="#000000"
 							xmlns="http://www.w3.org/2000/svg"
@@ -37,7 +37,7 @@ function Project({ project }) {
 							/>
 						</svg>
 					</a>
-				</article>
+				</article> */}
 			</section>
 		</Fade>
 	);
