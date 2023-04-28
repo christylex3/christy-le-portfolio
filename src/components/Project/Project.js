@@ -9,7 +9,7 @@ function Project({ project }) {
 		<Fade bottom distance="20%" duration="1500">
 			<section className="project relative m-3" key={name}>
 				<img
-					className="relative max-w-4xl w-full h-full rounded-lg object-cover grayscale"
+					className="relative max-w-4xl w-full md:w-[400px] h-full rounded-lg object-cover grayscale"
 					src={require(`../../assets/projects/${name}.jpg`)}
 					alt={removeHyphensAndCapitalize(name)}
 				/>
