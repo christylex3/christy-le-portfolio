@@ -10,7 +10,7 @@ function Footer() {
 			<div className="flex items-center gap-8 md:gap-12 p-3 m-1 z-50">
 				{/* GitHub */}
 				<a
-					className="text-white bg-neutral-700 hover:bg-[#5C6BC0] rounded-full p-3 drop-shadow hover:animate-bounce"
+					className="text-white bg-neutral-700 hover:bg-[#5C6BC0] rounded-full p-3 drop-shadow transition ease-in-out hover:translate-y-1 hover:scale-110 duration-300"
 					href="https://github.com/christylex3"
 					target="_blank"
 					rel="noreferrer"
@@ -19,7 +19,7 @@ function Footer() {
 				</a>
 				{/* LinkedIn */}
 				<a
-					className="text-white bg-neutral-700 hover:bg-[#007EBB] rounded-full p-3 drop-shadow hover:animate-bounce"
+					className="text-white bg-neutral-700 hover:bg-[#007EBB] rounded-full p-3 drop-shadow transition ease-in-out hover:translate-y-1 hover:scale-110 duration-300"
 					href="https://www.linkedin.com/in/christy-le-316960209/"
 					target="_blank"
 					rel="noreferrer"
@@ -28,14 +28,14 @@ function Footer() {
 				</a>
 				{/* Phone */}
 				<a
-					className="text-white bg-neutral-700 hover:bg-[#6AAF50] rounded-full p-3 drop-shadow hover:animate-bounce"
+					className="text-white bg-neutral-700 hover:bg-[#6AAF50] rounded-full p-3 drop-shadow transition ease-in-out hover:translate-y-1 hover:scale-110 duration-300"
 					href="tel:770-843-6811"
 				>
 					<BsFillPhoneFill className="w-6 h-6" />
 				</a>
 				{/* Email */}
 				<a
-					className="text-white bg-neutral-700 hover:bg-[#F44336] rounded-full p-3 drop-shadow hover:animate-bounce"
+					className="text-white bg-neutral-700 hover:bg-[#F44336] rounded-full p-3 drop-shadow transition ease-in-out hover:translate-y-1 hover:scale-110 duration-300"
 					href="mailto: christylex3@gmail.com"
 				>
 					<MdEmail className="w-6 h-6" />

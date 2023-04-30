@@ -36,7 +36,7 @@ function Nav() {
 	return (
 		<header className="sticky top-0 bg-hero bg-top bg-cover text-black md:flex md:justify-between relative z-50">
 			<img
-				className="text-center pl-5 py-3 h-20 md:h-24 object-cover hover:cursor-pointer hover:opacity-50"
+				className="text-center pl-5 py-3 h-20 md:h-24 object-cover hover:cursor-pointer hover:opacity-50 transition ease-in-out hover:translate-y-0.5 hover:scale-110 duration-300"
 				src={logo}
 				alt="Christy's Logo"
 				onClick={() => {window.scrollTo(0, 0)}}
@@ -47,15 +47,15 @@ function Nav() {
 			>
 				{/* Close button */}
 				<button
-					className="nav-btn nav-close-btn z-20 text-white text-2xl hover:text-rose-500"
+					className="nav-btn nav-close-btn z-20 text-white text-2xl hover:text-green-400"
 					onClick={showNavbar}
 				>
 					<FaTimes />
 				</button>
-				<ul className="flex flex-col bg-black w-full h-screen gap-16 text-4xl uppercase text-white items-center justify-center font-semibold z-10">
+				<ul className="flex flex-col bg-neutral-800 w-full h-screen gap-16 text-4xl uppercase text-white items-center justify-center font-semibold z-10">
 					{menu.map((menu) => (
 						<li
-							className={`hover:text-rose-500 cursor-pointer`}
+							className={`hover:text-green-400 transition ease-in-out hover:translate-y-1 hover:scale-110 duration-300 cursor-pointer`}
 							key={menu.id}
 						>
 							<a href={menu.scroll} onClick={showNavbar}>
