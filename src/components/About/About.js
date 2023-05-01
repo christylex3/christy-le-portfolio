@@ -20,8 +20,8 @@ function About() {
 							background in direct sales marketing to build
 							rapports and to generate outstanding event sales.
 							Received the certificate in{" "}
-							<span className="text-rose-600 font-semibold hover:underline hover:cursor-pointer">
-								<a href="download:">
+							<span className="text-indigo-600 font-semibold  hover:cursor-pointer">
+								<a className="animated-underline" target="_blank" href="download:" rel="noreferrer">
 									Full Stack Flex Web Development
 								</a>
 							</span>{" "}
@@ -43,7 +43,7 @@ function About() {
 				</Fade>
 				<Fade right distance="40%" duration={2000}>
 					<img
-						className="rounded-lg object-cover w-full md:w-1/3 hover:cursor-pointer grayscale hover:grayscale-0" 
+						className="rounded-lg object-cover w-full md:w-1/3 hover:cursor-pointer mix-blend-luminosity hover:mix-blend-normal drop-shadow" 
 						src={christy_le}
 						alt="CHRISTY LE"
 					/>

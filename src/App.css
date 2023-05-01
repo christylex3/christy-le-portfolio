@@ -21,6 +21,17 @@ nav {
 	transform: translateX(100vw);
 }
 
+.animated-underline {
+	text-decoration: none;
+	background: linear-gradient(currentColor, currentColor) bottom / 0 .1em no-repeat;
+	transition: 0.4s background-size;
+	background-position: left bottom;
+}
+
+.animated-underline:hover {
+	background-size: 100% .1em;
+}
+
 .nav-close-btn {
 	cursor: pointer;
 	color: white;

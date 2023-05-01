@@ -9,7 +9,7 @@ module.exports = {
 		},
 		extend: {
 			backgroundImage: (theme) => ({
-				hero: "url(/src/assets/cover/eberhard-grossgasteiger-unsplash.jpg)",
+				hero: "url(/src/assets/hero/eberhard-grossgasteiger-unsplash.jpg)",
 			}),
 		},
 	},

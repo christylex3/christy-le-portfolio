@@ -47,7 +47,7 @@ function Nav() {
 			>
 				{/* Close button */}
 				<button
-					className="nav-btn nav-close-btn z-20 text-white text-2xl hover:text-green-400"
+					className="nav-btn nav-close-btn z-20 text-white text-2xl hover:text-indigo-400 transition ease-in-out hover:translate-y-1 hover:scale-110 duration-300"
 					onClick={showNavbar}
 				>
 					<FaTimes />
@@ -55,7 +55,7 @@ function Nav() {
 				<ul className="flex flex-col bg-neutral-800 w-full h-screen gap-16 text-4xl uppercase text-white items-center justify-center font-semibold z-10">
 					{menu.map((menu) => (
 						<li
-							className={`hover:text-green-400 transition ease-in-out hover:translate-y-1 hover:scale-110 duration-300 cursor-pointer`}
+							className={`hover:text-indigo-400 transition ease-in-out hover:translate-y-1 hover:scale-110 duration-300 cursor-pointer`}
 							key={menu.id}
 						>
 							<a href={menu.scroll} onClick={showNavbar}>

@@ -10,7 +10,7 @@ function Footer() {
 			<div className="flex items-center gap-8 md:gap-12 p-3 m-1 z-50">
 				{/* GitHub */}
 				<a
-					className="text-white bg-neutral-700 hover:bg-[#5C6BC0] rounded-full p-3 drop-shadow transition ease-in-out hover:translate-y-1 hover:scale-110 duration-300"
+					className="text-white bg-neutral-700 hover:bg-[#5C6BC0] rounded-full p-3 drop-shadow transition ease-in-out hover:translate-y-1 hover:scale-110 duration-300 hover:no-underline"
 					href="https://github.com/christylex3"
 					target="_blank"
 					rel="noreferrer"

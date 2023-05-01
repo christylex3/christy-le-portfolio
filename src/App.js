@@ -27,7 +27,7 @@ function App() {
 		// 	</Routes>
 		// 	<Footer />
 		// </Router>
-		<main className="bg-hero bg-fixed bg-center bg-cover object-cover w-full min-h-screen text-neutral-700">
+		<main className="bg-hero bg-fixed bg-center bg-cover object-cover w-full min-h-screen text-neutral-700 relative">
 			<Nav />
 			<Header />
 			<About />
