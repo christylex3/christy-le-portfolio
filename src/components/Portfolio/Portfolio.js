@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Fade from "react-reveal/Fade";
 import Project from "../Project/Project";
 
 function Portfolio() {
@@ -44,17 +43,17 @@ function Portfolio() {
 	]);
 
 	return (
-		<section id="portfolio-section" className="flex flex-col items-center mx-auto mb-28">
-			<Fade top distance="40%" duration="1800">
-				<h2 className="section-head text-4xl py-8 mt-20 text-center md:text-left font-bold drop-shadow">
+		<section id="portfolio-section" className="bg-neutral-800 pb-28">
+			<div className="max-w-4xl mx-auto flex flex-col items-center">
+				<h2 className="section-head text-4xl py-8 mt-20 text-center md:text-left font-bold drop-shadow text-transparent bg-clip-text bg-gradient-to-b from-rose-500 to-white js-show-on-scroll">
 					❀ PORTFOLIO ❀
 				</h2>
-			</Fade>
 				<article className="flex flex-wrap-reverse flex-row-reverse justify-center items-center">
 					{projects.map((project, idx) => (
 						<Project project={project} key={"project" + idx} />
 					))}
 				</article>
+			</div>
 		</section>
 	);
 }
