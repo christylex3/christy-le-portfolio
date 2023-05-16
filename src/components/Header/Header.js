@@ -4,13 +4,13 @@ function Header() {
 	return (
 		<section
 			id="header-section"
-			className="w-full relative px-7 md:px-0 w-full h-screen"
+			className="w-full relative px-7  w-full h-screen"
 		>
 			<article className="flex flex-col mx-auto justify-center items-left min-h-screen max-w-4xl">
 				<h1 className="font-firamono text-neutral-700 text-lg font-bold text-left md:text-2xl drop-shadow js-show-on-scroll">
 					Good morning, good afternoon, or good evening!
 				</h1>
-				<h1 className="font-firamono text-neutral-700 font-bold text-left text-lg md:text-2xl mt-2.5 drop-shadow js-show-on-scroll">
+				<h1 className="font-firamono text-neutral-700 font-bold text-left text-lg md:text-2xl mt-2.5 drop-shadow js-show-on-scroll" style={{transitionDelay:0.5}}>
 					I'm{" "}
 					<span
 						id="name"
@@ -19,7 +19,7 @@ function Header() {
 						CHRISTY LE.
 					</span>
 				</h1>
-				<h3 className="font-firamono text-neutral-700 text-lg font-bold text-left md:text-2xl mt-2.5 drop-shadow js-show-on-scroll">
+				<h3 className="font-firamono text-neutral-700 text-lg font-bold text-left md:text-2xl mt-2.5 drop-shadow js-show-on-scroll" style={{transitionDelay: 500}}>
 					Full-Stack Web Developer in Atlanta, Georgia, USA.
 				</h3>
 				<h3 className="text-lg text-left md:text-xl mt-8 drop-shadow mb-14 js-show-on-scroll">

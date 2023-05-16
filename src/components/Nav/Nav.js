@@ -1,10 +1,29 @@
-import React, { useRef } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import logo from "../../assets/icon/christy-le-logo-black.png";
 
 function Nav() {
-
 	const navRef = useRef();
+	const [prevScrollPos, setPrevScrollPos] = useState(0);
+	const [visible, setVisible] = useState(true);
+
+	const handleScroll = () => {
+		const currentScrollPos = window.scrollY;
+
+		if (currentScrollPos > prevScrollPos) {
+			setVisible(false);
+		} else {
+			setVisible(true);
+		}
+
+		setPrevScrollPos(currentScrollPos);
+	};
+
+	useEffect(() => {
+		window.addEventListener("scroll", handleScroll);
+
+		return () => window.removeEventListener("scroll", handleScroll);
+	}, [handleScroll, visible]);
 
 	const showNavbar = () => {
 		navRef.current.classList.toggle("responsive_nav");
@@ -14,32 +33,38 @@ function Nav() {
 		{
 			id: 1,
 			name: "ABOUT",
-			scroll: "#about-section"
+			scroll: "#about-section",
 		},
 		{
 			id: 2,
 			name: "Portfolio",
-			scroll: "#portfolio-section"
+			scroll: "#portfolio-section",
 		},
 		{
 			id: 3,
 			name: "Resume",
-			scroll: "#resume-section"
+			scroll: "#resume-section",
 		},
 		{
 			id: 4,
 			name: "Contact",
-			scroll: "#contact-section"
+			scroll: "#contact-section",
 		},
 	];
 
 	return (
-		<header className="sticky top-0 bg-hero bg-top bg-cover text-black md:flex md:justify-between relative z-50">
+		<header
+			className={`sticky ${
+				visible ? "top-0" : ""
+			} top-0 bg-hero bg-top bg-cover text-black md:flex md:justify-between relative z-50`}
+		>
 			<img
 				className="text-center pl-5 py-3 h-20 md:h-24 object-cover hover:cursor-pointer hover:opacity-50 transition ease-in-out hover:translate-y-0.5 hover:scale-110 duration-300"
 				src={logo}
 				alt="Christy's Logo"
-				onClick={() => {window.scrollTo(0, 0)}}
+				onClick={() => {
+					window.scrollTo(0, 0);
+				}}
 			></img>
 			<nav
 				className="flex flex-col w-full max-w-md min-h-screen z-50"

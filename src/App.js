@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import Nav from "./components/Nav/Nav";
 import Header from "./components/Header/Header";
 import About from "./components/About/About";
+import Skills from "./components/Skills/Skills";
 import Portfolio from "./components/Portfolio/Portfolio";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
@@ -15,10 +16,12 @@ function App() {
 				if (entry.isIntersecting) {
 					// Add the fadeUp class:
 					entry.target.classList.add("motion-safe:animate-fadeUp");
-				} else {
-					// Otherwise remove the fadeIn class
-					entry.target.classList.remove("motion-safe:animate-fadeUp");
 				}
+				// If I want the element to disappear
+				// } else {
+				// 	// Otherwise remove the fadeIn class
+				// 	entry.target.classList.remove("motion-safe:animate-fadeUp");
+				// }
 			});
 		};
 
@@ -43,6 +46,7 @@ function App() {
 			<Nav />
 			<Header />
 			<About />
+			<Skills />
 			<Portfolio />
 			<Contact />
 			<Footer />

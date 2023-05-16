@@ -21,8 +21,13 @@ nav {
 	transform: translateX(100vw);
 }
 
+::selection {
+	background:rgb(94, 69, 80);
+	color: aliceblue;
+}
+
 .light-pink {
-	color: #F5D5D3;
+	color: #313131;
 }
 
 .animated-underline {

@@ -7,7 +7,7 @@ function Project({ project }) {
 	return (
 		<section className="project relative m-3 js-show-on-scroll" key={name}>
 			<img
-				className="relative max-w-4xl w-full md:w-[400px] h-full rounded-lg object-cover grayscale"
+				className="relative max-w-4xl w-full md:w-[400px] h-full rounded-lg object-cover grayscale hover:grayscale-0 cursor-pointer"
 				src={require(`../../assets/projects/${name}.jpg`)}
 				alt={removeHyphensAndCapitalize(name)}
 			/>

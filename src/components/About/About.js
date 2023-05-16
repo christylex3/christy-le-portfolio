@@ -9,16 +9,16 @@ function About() {
 			id="about-section"
 			className="bg-neutral-800 flex flex-col px-7 md:px-0"
 		>
-			<div className="max-w-4xl mx-auto">
-				<h2 className="section-head text-4xl py-8 mt-20 text-center md:text-left font-bold drop-shadow text-transparent bg-clip-text bg-gradient-to-b from-rose-500 to-white js-show-on-scroll">
+			<div className="max-w-4xl mx-auto flex flex-col">
+				<h2 className="section-head text-4xl py-8 mt-20 text-center md:text-left font-bold drop-shadow text-transparent bg-clip-text bg-gradient-to-b from-rose-700 to-rose-100 js-show-on-scroll">
 					❀ ABOUT ME ❀
 				</h2>
 				{/* </Fade> */}
 				<article className="flex flex-col md:flex-row mb-20">
 					<div className="text-neutral-400 text-lg md:text-xl md:pr-5">
 						<p className="js-show-on-scroll">
-							Hello, it's Christy. I recently made a career change
-							from{" "}
+							Hello, I'm Christy, a full-stack developer who
+							recently changed career from{" "}
 							<span className="text-[#FAB1BE] font-semibold animated-underline">
 								<a
 									className="animated-underline"
@@ -28,9 +28,10 @@ function About() {
 								>
 									direct sales marketing
 								</a>
-							</span>{" "}
-							to become a full-stack developer. I received the
-							certificate of{" "}
+							</span>
+							. I pursued coding as a hobby since 2018, but by
+							late 2022, I decided to take coding further by
+							getting the{" "}
 							<span className="text-[#FAB1BE] font-semibold animated-underline">
 								<a
 									className="animated-underline"
@@ -41,10 +42,14 @@ function About() {
 									Full Stack Flex Web Development
 								</a>
 							</span>{" "}
-							from Georgia Tech’s coding bootcamp. Specializes in
-							designing full-stack websites with JavaScript in
-							mind of mobile-first design. Efficient in debugging
-							errors and designing for mobile-responsiveness.{" "}
+							certification from completing Georgia Tech's Coding
+							Bootcamp.
+						</p>
+						<br />
+						<p className="js-show-on-scroll">
+							I specialize in developing MERN stack applications
+							with the approach of Agile and Mobile-First Design.
+							I am{" "}
 							<span className="text-[#FAB1BE] font-semibold animated-underline">
 								<a
 									className="animated-underline"
@@ -52,7 +57,7 @@ function About() {
 									href="https://www.facebook.com/modexposure/photos/a.118722550442286/275320554782484/"
 									rel="noreferrer"
 								>
-									Known among peers
+									known among peers
 								</a>
 							</span>{" "}
 							for being inquisitive, mission-oriented,
@@ -61,13 +66,13 @@ function About() {
 						</p>
 						<br />
 						<p className="mb-8 js-show-on-scroll">
-							Currently learning Java, Python, and C+ from the
-							continuation course of Georgia Tech's coding
-							bootcamp.
+							As my goal is to become a lead developer, I strive
+							to build smoother responsive full-stack applications
+							and learn new frameworks that can make applications more accessible and maintainable.
 						</p>
 					</div>
 					<img
-						className="rounded-lg object-cover w-full md:w-1/3 hover:cursor-pointer mix-blend-luminosity hover:mix-blend-normal drop-shadow js-show-on-scroll"
+						className="rounded-lg object-cover w-full md:w-1/3 h-[350px] hover:cursor-pointer mix-blend-luminosity hover:mix-blend-normal drop-shadow js-show-on-scroll"
 						src={christy_le}
 						alt="CHRISTY LE"
 					/>
