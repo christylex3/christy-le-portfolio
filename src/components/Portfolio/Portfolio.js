@@ -4,41 +4,41 @@ import Project from "../Project/Project";
 function Portfolio() {
 	const [projects] = useState([
 		{
-			name: "sadLibs",
-			description: "HTML/CSS",
-			link: "https://christylex3.github.io/sadLibs/",
-			repo: "https://github.com/christylex3/sadLibs",
-		},
-		{
 			name: "recipe-finder",
-			description: "MERN Stack",
-			link: "https://simply-recipe-finder.herokuapp.com/",
+			description: "",
+			stack: "MERN, Tailwind CSS, Heroku",
+			heroku: "https://simply-recipe-finder.herokuapp.com/",
 			repo: "https://github.com/christylex3/recipefinder",
 		},
 		{
 			name: "weather-dashboard",
-			description: "HTML/CSS/JS",
+			stack: "JavaScript, API",
 			link: "https://christylex3.github.io/weather-dashboard/",
 			repo: "https://github.com/christylex3/work-day-scheduler",
 		},
 		{
 			name: "tech-blog",
-			description: "MERN Stack",
-			link: "https://simply-tech-blog.herokuapp.com/",
+			description: "A space where you can blog and nerd out about technology or coding. Simply just login and post! Then check out what others have to say. You're also welcome to edit and delete your blogs.",
+			stack: "MERN, Heroku",
+			heroku: "https://simply-tech-blog.herokuapp.com/",
 			repo: "https://github.com/christylex3/tech-blog",
 		},
 		{
 			name: "level-up-coding",
-			description: "MERN Stack",
-			link: "https://level-up-coding.herokuapp.com/",
+			description: "An easy way to view other coding tutorial videos all in one website! Each videos are organized by difficulty levels: beginner, intermediate, or advanced. You can watch videos, upload videos, and sign up or log in to comment on them.",
+			stack: "MERN, Heroku, GraphQL, Tailwind CSS, Excalidraw, Lucid",
+			heroku: "https://level-up-coding.herokuapp.com/",
+			excalidraw: "https://excalidraw.com/#room=271ea528f02042a30d4f,IqJCZ-dk48Qv4matA76Z2A",
 			repo: "https://github.com/christylex3/Level-Up-Coding",
 		},
 		{
 			name: "cozia",
-			description: "MERN Stack",
-			link: "https://gocozia.com/",
-			// link: "https://cozia.herokuapp.com/",
+			description: "The pseudo clothing ecommerce website where you can become both a buyer and seller. Upload pictures of clothes you want to sell, browse for trending clothes, leave reviews on clothes, and view your orders that you've sold or purchased.",
+			stack: "MERN, GraphQL, Tailwind CSS, REST API, AWS, Heroku, Stripe, Figma",
+			aws: "https://gocozia.com/",
+			heroku: "https://cozia.herokuapp.com/",
 			repo: "https://github.com/christylex3/cozia",
+			figma: "https://www.figma.com/file/odknIKVYg5htw1EwxBJY0f/Cozia?type=design&node-id=497-456",
 		},
 	]);
 

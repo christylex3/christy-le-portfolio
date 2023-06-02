@@ -10,8 +10,9 @@ function Contact() {
 				<h2 className="section-head text-neutral-700 text-4xl py-8 mt-20 text-center md:text-left font-bold drop-shadow">
 					❀ CONTACT ❀
 				</h2>
-				<p className="text-lg md:text-xl md:pr-5 mb-14">
-					My inbox is always open, so don't be shy and let's connect!
+				<p className="text-lg text-center md:text-xl md:pr-5 mb-14 max-w-2xl">
+					Have questions, or want to work together? Let's connect then!
+					<br />Even if you just want to chat, send me a message, and I will do my best to get back to you!
 				</p>
 				<a
 					href="mailto: christylex3@gmail.com"

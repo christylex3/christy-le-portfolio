@@ -42,7 +42,7 @@ function About() {
 									Full Stack Flex Web Development
 								</a>
 							</span>{" "}
-							certification from completing Georgia Tech's Coding
+							certification from Georgia Tech's Coding
 							Bootcamp.
 						</p>
 						<br />
