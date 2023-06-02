@@ -56,7 +56,7 @@ function Nav() {
 		<header
 			className={`sticky ${
 				visible ? "top-0" : ""
-			} top-0 bg-hero bg-top bg-cover text-black md:flex md:justify-between relative z-50`}
+			} bg-hero bg-top bg-cover text-black md:flex md:justify-between relative z-50 `}
 		>
 			<img
 				className="text-center pl-5 py-2 h-16 md:h-20 object-cover hover:cursor-pointer hover:opacity-50 transition ease-in-out hover:translate-y-0.5 hover:scale-110 duration-300"

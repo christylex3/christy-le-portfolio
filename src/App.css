@@ -26,6 +26,34 @@ nav {
 	color: aliceblue;
 }
 
+/* New theme */
+
+.dark-indigo {
+	color: #221F3A;
+}
+
+.bg-dark-indigo {
+	background-color: #221F3A;
+}
+
+.indigo {
+	color: #3F4081;
+}
+
+.blue-yonder {
+	color: #748AD2;
+}
+
+.hot-pink {
+	color: #DE92D3;
+}
+
+/*  */
+
+.pink { 
+	color: #FAB1BE;
+}
+
 .light-pink {
 	color: #313131;
 }
