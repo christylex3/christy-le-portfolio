@@ -1,9 +1,11 @@
 import React, { useEffect } from "react";
+import Preloader from "./components/Preloader/Preloader";
 import Nav from "./components/Nav/Nav";
 import Header from "./components/Header/Header";
 import About from "./components/About/About";
 import Skills from "./components/Skills/Skills";
 import Portfolio from "./components/Portfolio/Portfolio";
+import Resume from "./components/Resume/Resume";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 
@@ -14,6 +16,7 @@ function App() {
 			entries.forEach((entry) => {
 				// Is the element in the viewport?
 				if (entry.isIntersecting) {
+
 					// Add the fadeUp class:
 					entry.target.classList.add("motion-safe:animate-fadeUp");
 				}
@@ -42,12 +45,13 @@ function App() {
 	}, []);
 
 	return (
-		<main className="bg-hero bg-fixed bg-center bg-cover object-cover w-full min-h-screen text-[#4F4451] relative">
+		<main className="bg-hero bg-fixed bg-cover bg-bottom text-white w-full min-h-screen relative">
 			<Nav />
 			<Header />
 			<About />
 			<Skills />
 			<Portfolio />
+			<Resume />
 			<Contact />
 			<Footer />
 		</main>

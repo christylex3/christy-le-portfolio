@@ -9,14 +9,15 @@ module.exports = {
 		},
 		extend: {
 			backgroundImage: (theme) => ({
-				hero: "url(/src/assets/hero/eberhard-grossgasteiger-unsplash.jpg)",
+				hero: "url(/src/assets/hero/navy-blue-concrete-wall-with-scratches.jpg)",
 			}),
 			animation: {
 				fadeIn: "fadeIn 1s ease-in-out forwards",
 				fadeUp: "fadeUp 1s ease-in-out forwards",
 				fadeDown: "fadeDown 1s ease-in-out forwards",
 				fadeOut: "fadeOut 1s ease-in-out forwards",
-				wiggle: "wiggle 1s ease-in-out infinite",
+				// progress: "progress 2s ease-in-out forwards",
+				wiggle: "wiggle 1s ease-in-out forwards",
 			},
 			keyframes: {
 				fadeIn: {
@@ -35,6 +36,10 @@ module.exports = {
 					"0%": { opacity: 1 },
 					"100%": { opacity: 0 },
 				},
+				// progress: {
+				// 	"0%": { width: "0%", opacity: 0 },
+				// 	"100%": { opacity: 1 }
+				// },
 				wiggle: {
 					"0%, 100%": { transform: "rotate(-3deg)" },
 					"50%": { transform: "rotate(3deg)" },

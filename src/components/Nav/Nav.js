@@ -1,12 +1,13 @@
 import React, { useState, useRef, useEffect } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-import logo from "../../assets/icon/christy-le-logo-black.png";
+import logo from "../../assets/icon/christy-le-logo-white.png";
 
 function Nav() {
 	const navRef = useRef();
 	const [prevScrollPos, setPrevScrollPos] = useState(0);
 	const [visible, setVisible] = useState(true);
 
+	// eslint-disable-next-line react-hooks/exhaustive-deps
 	const handleScroll = () => {
 		const currentScrollPos = window.scrollY;
 
@@ -32,7 +33,7 @@ function Nav() {
 	const menu = [
 		{
 			id: 1,
-			name: "ABOUT",
+			name: "About",
 			scroll: "#about-section",
 		},
 		{
@@ -42,13 +43,13 @@ function Nav() {
 		},
 		{
 			id: 3,
-			name: "Resume",
-			scroll: "#resume-section",
+			name: "Contact",
+			scroll: "#contact-section",
 		},
 		{
 			id: 4,
-			name: "Contact",
-			scroll: "#contact-section",
+			name: "Resume",
+			scroll: "#resume-section",
 		},
 	];
 
@@ -56,10 +57,10 @@ function Nav() {
 		<header
 			className={`sticky ${
 				visible ? "top-0" : ""
-			} bg-hero bg-top bg-cover text-black md:flex md:justify-between relative z-50 `}
+			} bg-hero bg-fixed bg-cover bg-bottom opacity-95 md:flex md:justify-between relative z-50`}
 		>
 			<img
-				className="text-center pl-5 py-2 h-16 md:h-20 object-cover hover:cursor-pointer hover:opacity-50 transition ease-in-out hover:translate-y-0.5 hover:scale-110 duration-300"
+				className="text-center pl-5 py-4 md:py-3 h-20 ml-1 md:ml-5 object-cover hover:cursor-pointer hover:animate-pulse"
 				src={logo}
 				alt="Christy's Logo"
 				onClick={() => {
@@ -67,20 +68,20 @@ function Nav() {
 				}}
 			></img>
 			<nav
-				className="flex flex-col w-full max-w-md min-h-screen z-50"
+				className="flex flex-col w-full max-w-md min-h-screen md:hidden z-50"
 				ref={navRef}
 			>
 				{/* Close button */}
 				<button
-					className="nav-btn nav-close-btn z-20 text-white text-2xl hover:text-rose-500 transition ease-in-out hover:translate-y-1 hover:scale-110 duration-300"
+					className="nav-btn nav-close-btn z-20 text-white text-2xl hover:text-[#f472b6] transition ease-in-out hover:translate-y-1 hover:scale-110 duration-300"
 					onClick={showNavbar}
 				>
 					<FaTimes />
 				</button>
-				<ul className="flex flex-col bg-neutral-800 w-full h-screen gap-16 text-4xl uppercase text-white items-center justify-center font-semibold z-10">
+				<ul className="flex flex-col bg-indigo w-full h-screen gap-16 text-4xl uppercase text-white items-center justify-center font-semibold z-10">
 					{menu.map((menu) => (
 						<li
-							className={`hover:text-rose-500 transition ease-in-out hover:translate-y-1 hover:scale-110 duration-300 cursor-pointer`}
+							className={`hover:text-[#f472b6] transition ease-in-out hover:translate-y-1 hover:scale-110 duration-300 cursor-pointer`}
 							key={menu.id}
 						>
 							<a href={menu.scroll} onClick={showNavbar}>
@@ -92,11 +93,26 @@ function Nav() {
 			</nav>
 			{/* Menu button */}
 			<button
-				className="nav-btn absolute top-1/2 right-0 flex -translate-y-1/2 p-5 text-xl hover:opacity-50"
+				className="nav-btn drop-shadow absolute top-1/2 right-0 flex -translate-y-1/2 p-5 text-xl mr-1 md:hidden hover:text-[#f472b6]"
 				onClick={showNavbar}
 			>
 				<FaBars />
 			</button>
+			{/* Desktop navbar */}
+			<div className="timberworld hidden md:block md:flex md:items-center">
+				<ul className="hidden md:block md:flex md:items-center md:mr-5">
+					{menu.map((menu) => (
+						<li
+							className={`uppercase text-xl font-semibold hover:text-[#f472b6] p-5 cursor-pointer transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300`}
+							key={menu.id}
+						>
+							<a href={menu.scroll} onClick={showNavbar}>
+								{menu.name}
+							</a>
+						</li>
+					))}
+				</ul>
+			</div>
 		</header>
 	);
 }
