@@ -1,11 +1,11 @@
 import React, { useEffect } from "react";
-import Preloader from "./components/Preloader/Preloader";
+// import Preloader from "./components/Preloader/Preloader";
 import Nav from "./components/Nav/Nav";
 import Header from "./components/Header/Header";
 import About from "./components/About/About";
-import Skills from "./components/Skills/Skills";
+import Experience from "./components/Experience/Experience";
 import Portfolio from "./components/Portfolio/Portfolio";
-import Resume from "./components/Resume/Resume";
+// import Resume from "./components/Resume/Resume";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 
@@ -49,9 +49,9 @@ function App() {
 			<Nav />
 			<Header />
 			<About />
-			<Skills />
+			<Experience />
 			<Portfolio />
-			<Resume />
+			{/* <Resume /> */}
 			<Contact />
 			<Footer />
 		</main>

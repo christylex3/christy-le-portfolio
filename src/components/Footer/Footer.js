@@ -20,7 +20,7 @@ function Footer() {
 				{/* LinkedIn */}
 				<a
 					className="indigo bg-timberworld hover:text-white hover:bg-[#007EBB] rounded-full p-2 drop-shadow transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300"
-					href="https://www.linkedin.com/in/christy-le-316960209/"
+					href="https://www.linkedin.com/in/le-christy/"
 					target="_blank"
 					rel="noreferrer"
 				>

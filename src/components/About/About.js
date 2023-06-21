@@ -2,6 +2,7 @@ import React from "react";
 
 // My profile picture
 import christy_le from "../../assets/profile/christy-le.jpg";
+import certificate from "../../assets/certificate/christy-le-certificate.pdf";
 
 function About() {
 	return (
@@ -15,7 +16,7 @@ function About() {
 				</h2>
 				{/* </Fade> */}
 				<article className="flex flex-col md:flex-row mb-20">
-					<div className="text-slate-400 md:font-medium text-lg md:text-xl md:pr-5">
+					<div className="text-slate-400 text-lg md:text-xl md:pr-5">
 						<p className="js-show-on-scroll">
 							Hello, I'm Christy, a full-stack developer who
 							recently changed career from{" "}
@@ -36,7 +37,7 @@ function About() {
 								<a
 									className="animated-underline"
 									target="_blank"
-									href="download:"
+									href={certificate}
 									rel="noreferrer"
 								>
 									Full Stack Flex Web Development
@@ -48,26 +49,15 @@ function About() {
 						<p className="js-show-on-scroll">
 							I specialize in developing MERN stack applications
 							with the approach of Agile and Mobile-First Design.
-							I am{" "}
-							<span className="hot-pink font-semibold animated-underline">
-								<a
-									className="animated-underline"
-									target="_blank"
-									href="https://www.facebook.com/modexposure/photos/a.118722550442286/275320554782484/"
-									rel="noreferrer"
-								>
-									known among peers
-								</a>
-							</span>{" "}
-							for being inquisitive, mission-oriented,
-							collaborative, communicative, and always eager to
-							learn.
+							I am known among peers for being mission-oriented,
+							collaborative, communicative, and inquisitive.
 						</p>
 						<br />
 						<p className="mb-8 js-show-on-scroll">
 							As my goal is to become a lead developer, I strive
 							to build smoother responsive full-stack applications
-							and learn new frameworks that can make applications more accessible and maintainable.
+							and learn new frameworks that can make applications
+							more accessible and maintainable.
 						</p>
 					</div>
 					<img

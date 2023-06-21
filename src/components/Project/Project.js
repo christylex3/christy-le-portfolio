@@ -4,7 +4,6 @@ import { BsGithub } from "react-icons/bs";
 import { FaAws } from "react-icons/fa";
 import { SiHeroku } from "react-icons/si";
 import { FaFigma } from "react-icons/fa";
-// import { BiLinkExternal } from "react-icons/bi";
 
 function Project({ project }) {
 	const { name, description, stack, link, aws, heroku, repo, figma } = project;

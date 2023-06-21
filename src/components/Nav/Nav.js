@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import logo from "../../assets/icon/christy-le-logo-white.png";
+import resume from "../../assets/resume/christy-le-resume.pdf";
 
 function Nav() {
 	const navRef = useRef();
@@ -38,18 +39,23 @@ function Nav() {
 		},
 		{
 			id: 2,
+			name: "Experience",
+			scroll: "#experience-section",
+		},
+		{
+			id: 3,
 			name: "Portfolio",
 			scroll: "#portfolio-section",
 		},
 		{
-			id: 3,
+			id: 4,
 			name: "Contact",
 			scroll: "#contact-section",
 		},
 		{
-			id: 4,
+			id: 5,
 			name: "Resume",
-			scroll: "#resume-section",
+			scroll: "",
 		},
 	];
 
@@ -78,15 +84,26 @@ function Nav() {
 				>
 					<FaTimes />
 				</button>
+
 				<ul className="flex flex-col bg-indigo w-full h-screen gap-16 text-4xl uppercase text-white items-center justify-center font-semibold z-10">
 					{menu.map((menu) => (
 						<li
 							className={`hover:text-[#f472b6] transition ease-in-out hover:translate-y-1 hover:scale-110 duration-300 cursor-pointer`}
 							key={menu.id}
 						>
-							<a href={menu.scroll} onClick={showNavbar}>
-								{menu.name}
-							</a>
+							{menu.name !== "Resume" ? (
+								<a href={menu.scroll} onClick={showNavbar}>
+									{menu.name}
+								</a>
+							) : (
+								<a
+									href={resume}
+									target="_blank"
+									rel="noreferrer"
+								>
+									resume
+								</a>
+							)}
 						</li>
 					))}
 				</ul>
@@ -103,12 +120,22 @@ function Nav() {
 				<ul className="hidden md:block md:flex md:items-center md:mr-5">
 					{menu.map((menu) => (
 						<li
-							className={`uppercase text-xl font-semibold hover:text-[#f472b6] p-5 cursor-pointer transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300`}
+							className={`uppercase text-md font-semibold hover:text-[#f472b6] p-5 cursor-pointer transition ease-in-out hover:scale-110 duration-300`}
 							key={menu.id}
 						>
-							<a href={menu.scroll} onClick={showNavbar}>
-								{menu.name}
-							</a>
+							{menu.name !== "Resume" ? (
+								<a href={menu.scroll} onClick={showNavbar}>
+									{menu.name}
+								</a>
+							) : (
+								<a
+									href={resume}
+									target="_blank"
+									rel="noreferrer"
+								>
+									resume
+								</a>
+							)}
 						</li>
 					))}
 				</ul>
