@@ -1,5 +1,4 @@
 import React from "react";
-import { VscSmiley } from "react-icons/vsc";
 
 function Contact() {
 	return (
