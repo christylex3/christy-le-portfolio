@@ -26,7 +26,7 @@ function Portfolio() {
 			name: "tech-blog",
 			link: "https://simply-tech-blog.herokuapp.com/",
 			description: "A space where you can blog and nerd out about technology or coding. Simply just login and post! Then check out what others have to say. You're also welcome to edit and delete your blogs.",
-			stack: "MERN (MYSQL, Express.js, React, Node.js), Heroku",
+			stack: "MERN (MySQL, Express.js, React, Node.js), Heroku",
 			heroku: "https://simply-tech-blog.herokuapp.com/",
 			repo: "https://github.com/christylex3/tech-blog",
 		},
