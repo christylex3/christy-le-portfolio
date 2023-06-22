@@ -118,7 +118,7 @@ function Skills() {
 						<article className="skill-item my-4">
 							<div className="skill-info flex justify-between text-slate-400">
 								<p className="font-medium font-firamono">
-									JavaScript (ES6+)
+									React
 								</p>
 								<p className="font-medium font-firamono">88%</p>
 							</div>
@@ -132,7 +132,7 @@ function Skills() {
 						<article className="skill-item">
 							<div className="skill-info flex justify-between text-slate-400">
 								<p className="font-medium font-firamono">
-									React
+									Tailwind CSS
 								</p>
 								<p className="font-medium font-firamono">82%</p>
 							</div>
@@ -146,7 +146,7 @@ function Skills() {
 						<article className="skill-item">
 							<div className="skill-info flex justify-between text-slate-400">
 								<p className="font-medium font-firamono">
-									Tailwind CSS
+									JavaScript (ES6+)
 								</p>
 								<p className="font-medium">80%</p>
 							</div>
