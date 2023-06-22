@@ -16,7 +16,7 @@ function Skills() {
 							Mod Exposure,
 						</a>
 						<p className="font-normal md:ml-2 md:mr-0">
-							Direct Sales Marketing
+							Direct Sales Representative
 						</p>
 					</div>
 
