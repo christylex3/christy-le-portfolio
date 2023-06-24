@@ -20,7 +20,7 @@ npm i
 
 ## Usage
 
-Check out my portfolio [here](christy-le.com).
+Check out my portfolio [here](www.christy-le.com).
 
 ## Contribution
 
