@@ -63,7 +63,7 @@ function Nav() {
 		<header
 			className={`sticky ${
 				visible ? "top-0" : ""
-			} bg-hero bg-fixed bg-cover bg-bottom opacity-95 md:flex md:justify-between relative z-50`}
+			} bg-hero bg-fixed bg-cover bg-top md:bg-center opacity-95 md:flex md:justify-between relative z-50`}
 		>
 			<img
 				className="text-center pl-5 py-4 md:py-3 h-20 ml-1 md:ml-5 object-cover hover:cursor-pointer hover:animate-pulse"
@@ -79,16 +79,16 @@ function Nav() {
 			>
 				{/* Close button */}
 				<button
-					className="nav-btn nav-close-btn z-20 text-white text-2xl hover:text-[#f472b6] transition ease-in-out hover:translate-y-1 hover:scale-110 duration-300"
+					className="nav-btn nav-close-btn z-20 text-white text-2xl hover:text-rose-400 transition ease-in-out hover:translate-y-1 hover:scale-110 duration-300"
 					onClick={showNavbar}
 				>
 					<FaTimes />
 				</button>
 
-				<ul className="flex flex-col bg-indigo w-full h-screen gap-16 text-4xl uppercase text-white items-center justify-center font-semibold z-10">
+				<ul className="flex flex-col bg-neutral-900 w-full h-screen gap-16 text-4xl uppercase text-white items-center justify-center font-semibold z-10">
 					{menu.map((menu) => (
 						<li
-							className={`hover:text-[#f472b6] transition ease-in-out hover:translate-y-1 hover:scale-110 duration-300 cursor-pointer`}
+							className={`hover:text-rose-400 transition ease-in-out hover:translate-y-1 hover:scale-110 duration-300 cursor-pointer`}
 							key={menu.id}
 						>
 							{menu.name !== "Resume" ? (
@@ -120,7 +120,7 @@ function Nav() {
 				<ul className="hidden md:block md:flex md:items-center md:mr-5">
 					{menu.map((menu) => (
 						<li
-							className={`uppercase text-md font-semibold hover:text-[#f472b6] p-5 cursor-pointer transition ease-in-out hover:scale-110 duration-300`}
+							className={`uppercase text-md font-semibold hover:text-zinc-700 p-5 cursor-pointer transition ease-in-out hover:scale-110 duration-300`}
 							key={menu.id}
 						>
 							{menu.name !== "Resume" ? (

@@ -44,8 +44,10 @@ function App() {
 		});
 	}, []);
 
+	// bg-hero bg-fixed bg-cover md:bg-center
+	// bg-gradient-to-b from-[#525157] to-[#AEAACF]
 	return (
-		<main className="bg-hero bg-fixed bg-cover bg-bottom text-white w-full min-h-screen relative">
+		<main className="bg-hero bg-fixed bg-cover md:bg-center bg-fixed text-white w-full min-h-screen relative">
 			<Nav />
 			<Header />
 			<About />

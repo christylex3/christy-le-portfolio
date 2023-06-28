@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url("https://fonts.googleapis.com/css2?family=Fira+Mono&family=Macondo&family=Quicksand:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Mono&family=Macondo&family=Quicksand:wght@400;500;600;700&family=Staatliches&display=swap");
 
 * {
 	box-sizing: border-box;
@@ -22,8 +22,8 @@ nav {
 }
 
 ::selection {
-	background:#5C649C;
-	color: black;
+	background:#525157;
+	color: white;
 }
 
 ::-webkit-scrollbar {
@@ -31,51 +31,12 @@ nav {
 }
 
 ::-webkit-scrollbar-track {
-	background-color: #09102D;
+	background-color: #171717;
 	width: 5px;
 }
 
 ::-webkit-scrollbar-thumb {
-	background-color: #D3D1CE;
-}
-
-
-/* Color palette */
-
-.indigo {
-	color: #172247;
-}
-
-.bg-indigo {
-	background-color: #172247
-}
-
-.hot-pink {
-	color: #f68ec4;
-}
-
-.bg-hot-pink {
-	background-color: #f68ec4;
-}
-
-.timberworld {
-	color: #c6c5c3;
-}
-
-.bg-timberworld {
-	background-color: #D3D1CE;
-}
-
-.waikawa-gray {
-	color: #5C649C;
-}
-
-.logan-blue {
-	color: #ADAFD2;
-}
-
-.polo-blue {
-	color: #8F9FCB;
+	background-color: #d4d4d4;
 }
 
 .animated-underline {

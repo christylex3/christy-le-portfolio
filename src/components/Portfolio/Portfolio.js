@@ -48,12 +48,12 @@ function Portfolio() {
 	]);
 
 	return (
-		<section id="portfolio-section" className="bg-indigo pb-28">
-			<div className="max-w-8xl mx-auto flex flex-col items-center">
-				<h2 className="section-head text-4xl py-8 mt-20 text-center md:text-left font-bold drop-shadow text-transparent bg-clip-text bg-gradient-to-b from-indigo-500 to-white js-show-on-scroll">
-					❀ PORTFOLIO ❀
+		<section id="portfolio-section" className="bg-neutral-800 pb-28">
+			<div className="max-w-8xl mx-auto flex flex-col items-center js-show-on-scroll">
+				<h2 className="section-head text-5xl py-8 mt-20 text-center md:text-left font-bold drop-shadow font-staatliches text-transparent bg-clip-text bg-gradient-to-b from-amber-400 to-white">
+					PORTFOLIO
 				</h2>
-				<p className="text-slate-400 md:font-medium text-lg md:text-xl mb-8 js-show-on-scroll">Check out my work below!</p>
+				<p className="text-neutral-400 md:font-medium text-lg md:text-xl mb-8">Check out my work below!</p>
 				<article className="flex flex-wrap justify-center items-center">
 					{projects.map((project, idx) => (
 						<Project project={project} key={"project" + idx} />

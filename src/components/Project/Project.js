@@ -10,7 +10,7 @@ function Project({ project }) {
 
 	return (
 		<section
-			className="flex flex-wrap justify-center content-center justify-between mx-5 mb-8 js-show-on-scroll relative drop-shadow min-h-fit"
+			className="flex flex-wrap justify-center content-center justify-between mx-5 mb-8 relative drop-shadow min-h-fit js-show-on-scroll"
 			key={name}
 		>
 			<a className="md:flex md:flex-start" href={link} target="_blank" rel="noreferrer">
@@ -20,17 +20,17 @@ function Project({ project }) {
 					alt={removeHyphensAndCapitalize(name)}
 				/>
 			</a>
-			<article className="text-neutral-300 flex flex-col justify-center items-center absolute bg-slate-900/95 w-full h-full p-5 md:flex">
+			<article className="text-neutral-300 flex flex-col justify-center items-center absolute bg-neutral-900/95 w-full h-full p-5 md:flex">
 				<a
-					className="hot-pink font-extrabold drop-shadow hover:text-blue-400 text-2xl cursor-pointer max-w-lg m-4"
+					className="text-rose-300 font-extrabold drop-shadow hover:text-rose-400 text-2xl cursor-pointer max-w-lg m-4"
 					href={link}
 					target="_blank"
 					rel="noreferrer"
 				>
 					{removeHyphensAndCapitalize(name)}
 				</a>
-				<p className="text-slate-400 md:font-medium md:text-lg max-w-lg my-3">{description}</p>
-				<p className="font-firamono text-slate-400 max-w-lg my-3">
+				<p className="text-neutral-400 md:font-medium md:text-lg max-w-lg my-3">{description}</p>
+				<p className="font-firamono text-neutral-400 max-w-lg my-3">
 					{stack}
 				</p>
 				<div className="flex max-w-lg my-3">
@@ -51,7 +51,7 @@ function Project({ project }) {
 							target="_blank"
 							rel="noreferrer"
 						>
-							<FaAws className="w-8 h-8 hover:text-pink-400 m-3" />
+							<FaAws className="w-8 h-8 hover:text-rose-400 m-3" />
 						</a>
 					) : (
 						""
@@ -62,7 +62,7 @@ function Project({ project }) {
 							target="_blank"
 							rel="noreferrer"
 						>
-							<SiHeroku className="w-8 h-8 hover:text-pink-400 m-3" />
+							<SiHeroku className="w-8 h-8 hover:text-rose-400 m-3" />
 						</a>
 					) : (
 						""
@@ -72,7 +72,7 @@ function Project({ project }) {
 						target="_blank"
 						rel="noreferrer"
 					>
-						<BsGithub className="w-8 h-8 hover:text-pink-400 m-3" />
+						<BsGithub className="w-8 h-8 hover:text-rose-400 m-3" />
 					</a>
 					{figma ? (
 						<a
@@ -80,7 +80,7 @@ function Project({ project }) {
 							target="_blank"
 							rel="noreferrer"
 						>
-							<FaFigma className="w-8 h-8 hover:text-pink-400 m-3" />
+							<FaFigma className="w-8 h-8 hover:text-rose-400 m-3" />
 						</a>
 					) : (
 						""

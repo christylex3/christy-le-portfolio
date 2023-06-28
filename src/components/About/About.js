@@ -8,19 +8,19 @@ function About() {
 	return (
 		<section
 			id="about-section"
-			className="bg-indigo flex flex-col px-7 md:px-10 lg:px-0"
+			className="bg-neutral-800 flex flex-col px-7 md:px-10 lg:px-0"
 		>
 			<div className="max-w-4xl mx-auto flex flex-col">
-				<h2 className="section-head text-4xl py-8 mt-20 text-center md:text-left font-bold drop-shadow text-transparent bg-clip-text bg-gradient-to-b from-indigo-500 to-white js-show-on-scroll">
-					❀ ABOUT ME ❀
+				<h2 className="section-head text-5xl py-8 mt-20 text-center md:text-left font-bold drop-shadow font-staatliches text-transparent bg-clip-text bg-gradient-to-b from-amber-400 to-white js-show-on-scroll">
+					ABOUT ME
 				</h2>
 				{/* </Fade> */}
 				<article className="flex flex-col md:flex-row mb-20">
-					<div className="text-slate-400 text-lg md:text-xl md:pr-5">
+					<div className="text-neutral-400 text-lg md:text-xl md:pr-5">
 						<p className="js-show-on-scroll">
 							Hello, I'm Christy, a full-stack developer who
 							recently changed career from{" "}
-							<span className="hot-pink font-semibold animated-underline">
+							<span className="text-rose-300 font-semibold animated-underline">
 								<a
 									className="animated-underline"
 									target="_blank"
@@ -33,7 +33,7 @@ function About() {
 							. I pursued coding as a hobby since 2018, and by
 							late 2022, I decided to take coding further by
 							completing Georgia Tech's Coding Bootcamp for the{" "}
-							<span className="hot-pink font-semibold animated-underline">
+							<span className="text-rose-300 font-semibold animated-underline">
 								<a
 									className="animated-underline"
 									target="_blank"

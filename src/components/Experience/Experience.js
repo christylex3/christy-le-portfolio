@@ -2,12 +2,12 @@ import React from "react";
 
 function Skills() {
 	return (
-		<section id="experience-section" className="bg-indigo pb-28">
+		<section id="experience-section" className="bg-neutral-800 pb-28">
 			<div className="max-w-4xl mx-auto flex flex-col px-7">
-				<h2 className="section-head text-4xl mt-20 py-8 text-center font-bold drop-shadow text-transparent bg-clip-text bg-gradient-to-b from-indigo-500 to-white js-show-on-scroll">
-					❀ EXPERIENCE & SKILLS ❀
+				<h2 className="section-head text-5xl mt-20 py-8 text-center font-bold drop-shadow font-staatliches text-transparent bg-clip-text bg-gradient-to-b from-amber-400 to-white js-show-on-scroll">
+					EXPERIENCE & SKILLS
 				</h2>
-				<article className="timberworld font-bold text-lg md:text-xl mb-3 flex flex-wrap justify-between md:justify-normal mb-3 js-show-on-scroll">
+				<article className="text-neutral-300 font-bold text-lg md:text-xl mb-3 flex flex-wrap justify-between md:justify-normal mb-3 js-show-on-scroll">
 					<div className="flex flex-col md:flex-row">
 						<a
 							href="https://www.modexposure.com/"
@@ -20,13 +20,13 @@ function Skills() {
 						</p>
 					</div>
 
-					<p className="flex md:items-center font-thin text-sm text-slate-400 md:ml-2">
+					<p className="flex md:items-center font-thin text-sm text-neutral-400 md:ml-2">
 						Feb - Apr 2022
 					</p>
 				</article>
-				<ul className="list-disc pl-4 mb-8 text-slate-400 text-lg md:text-xl js-show-on-scroll">
+				<ul className="list-disc pl-4 mb-8 text-neutral-400 text-lg md:text-xl js-show-on-scroll">
 					<li>
-						<span className="hot-pink font-semibold">
+						<span className="text-rose-300 font-semibold">
 							<a
 								className="animated-underline"
 								target="_blank"
@@ -47,14 +47,14 @@ function Skills() {
 						Generated exceptional sales and trained new trainees
 					</li>
 				</ul>
-				<p className="text-slate-400 md:font-medium text-lg md:text-xl mb-8 js-show-on-scroll">
+				<p className="text-neutral-400 md:font-medium text-lg md:text-xl mb-8 js-show-on-scroll">
 					Also, here are some technologies I've been working with:
 				</p>
 				<article className="mb-20">
 					{/* Skills list */}
-					<div className="text-slate-400 grid grid-cols-2 md:grid-cols-4 gap-5 md:flex md:justify-evenly js-show-on-scroll">
+					<div className="text-neutral-400 grid grid-cols-2 md:grid-cols-4 gap-5 md:flex md:justify-evenly js-show-on-scroll">
 						<div className="md:flex md:flex-col md:w-1/4 md:mr-8">
-							<p className="timberworld uppercase font-bold text-lg md:text-xl mb-3">
+							<p className="text-neutral-300 uppercase font-bold text-lg md:text-xl mb-3">
 								Programming Languages
 							</p>
 							<ul className="list-disc pl-4 mb-8">
@@ -68,7 +68,7 @@ function Skills() {
 							</ul>
 						</div>
 						<div className="flex flex-col md:mr-4 md:w-1/4 md:mr-8">
-							<p className="timberworld uppercase font-bold text-lg md:text-xl mb-3">
+							<p className="text-neutral-300 uppercase font-bold text-lg md:text-xl mb-3">
 								Frameworks & Libraries
 							</p>
 							<ul className="list-disc pl-4 mb-4">
@@ -86,7 +86,7 @@ function Skills() {
 							</ul>
 						</div>
 						<div className="flex flex-col mr-8 md:w-1/4">
-							<p className="timberworld uppercase font-bold text-lg md:text-xl mb-3">
+							<p className="text-neutral-300 uppercase font-bold text-lg md:text-xl mb-3">
 								Deployment
 							</p>
 							<ul className="list-disc pl-4 mb-4">
@@ -96,7 +96,7 @@ function Skills() {
 							</ul>
 						</div>
 						<div className="md:flex md:flex-col md:w-1/4">
-							<p className="timberworld uppercase font-bold text-lg md:text-xl mb-3">
+							<p className="text-neutral-300 uppercase font-bold text-lg md:text-xl mb-3">
 								Other Tools
 							</p>
 							<ul className="list-disc pl-4 mb-4">
@@ -112,75 +112,75 @@ function Skills() {
 					</div>
 					{/* Skill Bars */}
 					<div className="skill-items mt-8 md:mt-4 js-show-on-scroll">
-						<p className="text-slate-300 text-xl text-center font-bold">
+						<p className="text-neutral-300 text-xl text-center font-bold">
 							TOP SKILLS
 						</p>
 						<article className="skill-item my-4">
-							<div className="skill-info flex justify-between text-slate-400">
+							<div className="skill-info flex justify-between text-neutral-400">
 								<p className="font-medium font-firamono">
 									React
 								</p>
 								<p className="font-medium font-firamono">88%</p>
 							</div>
-							<div className="progress-line w-full bg-slate-700 h-3 rounded-full drop-shadow mb-5">
+							<div className="progress-line w-full bg-neutral-700 h-3 rounded-full drop-shadow mb-5">
 								<div
-									className="bg-pink-400 h-3 rounded-full transition"
+									className="bg-rose-300 h-3 rounded-full transition"
 									style={{ width: "88%" }}
 								></div>
 							</div>
 						</article>
 						<article className="skill-item">
-							<div className="skill-info flex justify-between text-slate-400">
+							<div className="skill-info flex justify-between text-neutral-400">
 								<p className="font-medium font-firamono">
 									Tailwind CSS
 								</p>
 								<p className="font-medium font-firamono">82%</p>
 							</div>
-							<div className="w-full bg-slate-700 h-3 rounded-full drop-shadow mb-5">
+							<div className="w-full bg-neutral-700 h-3 rounded-full drop-shadow mb-5">
 								<div
-									className="bg-pink-400 h-3 rounded-full"
+									className="bg-rose-300 h-3 rounded-full"
 									style={{ width: "82%" }}
 								></div>
 							</div>
 						</article>
 						<article className="skill-item">
-							<div className="skill-info flex justify-between text-slate-400">
+							<div className="skill-info flex justify-between text-neutral-400">
 								<p className="font-medium font-firamono">
 									JavaScript (ES6+)
 								</p>
 								<p className="font-medium">80%</p>
 							</div>
-							<div className="progress-line w-full bg-slate-700 h-3 rounded-full drop-shadow mb-5">
+							<div className="progress-line w-full bg-neutral-700 h-3 rounded-full drop-shadow mb-5">
 								<div
-									className="bg-pink-400 h-3 rounded-full"
+									className="bg-rose-300 h-3 rounded-full"
 									style={{ width: "80%" }}
 								></div>
 							</div>
 						</article>
 						<article className="skill-item">
-							<div className="skill-info flex justify-between text-slate-400">
+							<div className="skill-info flex justify-between text-neutral-400">
 								<p className="font-medium font-firamono">
 									Node.js
 								</p>
 								<p className="font-medium">77%</p>
 							</div>
-							<div className="progress-line w-full bg-slate-700 h-3 rounded-full drop-shadow mb-5">
+							<div className="progress-line w-full bg-neutral-700 h-3 rounded-full drop-shadow mb-5">
 								<div
-									className="bg-pink-400 h-3 rounded-full"
+									className="bg-rose-300 h-3 rounded-full"
 									style={{ width: "77%" }}
 								></div>
 							</div>
 						</article>
 						<article className="skill-item">
-							<div className="skill-info flex justify-between text-slate-400">
+							<div className="skill-info flex justify-between text-neutral-400">
 								<p className="font-medium font-firamono">
 									MongoDB
 								</p>
 								<p className="font-medium">75%</p>
 							</div>
-							<div className="progress-line w-full bg-slate-700 h-3 rounded-full drop-shadow mb-5">
+							<div className="progress-line w-full bg-neutral-700 h-3 rounded-full drop-shadow mb-5">
 								<div
-									className="bg-pink-400 h-3 rounded-full"
+									className="bg-rose-300 h-3 rounded-full"
 									style={{ width: "75%" }}
 								></div>
 							</div>

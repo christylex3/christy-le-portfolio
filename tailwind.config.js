@@ -6,10 +6,12 @@ module.exports = {
 			quicksand: ["Quicksand", "sans-serif"],
 			macondo: ["Macondo", "cursive"],
 			firamono: ["Fira Mono", "monospace"],
+			staatliches: ["Staatliches", "cursive"],
 		},
 		extend: {
 			backgroundImage: (theme) => ({
-				hero: "url(/src/assets/hero/navy-blue-concrete-wall-with-scratches.jpg)",
+				hero: "url(/src/assets/hero/j-lee-YTV-GHH9VpQ-unsplash.jpg)",
+				// heroImage: "url(/src/assets/hero/sirisvisual-b2Cm0AD0QqE-unsplash-cropped.jpg)",
 			}),
 			animation: {
 				fadeIn: "fadeIn 1s ease-in-out forwards",
