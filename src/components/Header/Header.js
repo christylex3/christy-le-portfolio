@@ -36,7 +36,7 @@ function Header() {
 
 					<a
 						href="mailto: christylex3@gmail.com"
-						className="flex bg-transparent hover:bg-gradient-to-r hover:from-cyan-400 hover:to-indigo-400 hover:text-white border border-neutral-600 hover:border-[#E68598] rounded-xl p-3 text-neutral-600 text-md md:text-xl font-bold px-10 drop-shadow transition ease-in-out duration-300 mx-auto js-show-on-scroll"
+						className="flex bg-transparent hover:bg-gradient-to-r hover:from-amber-400 hover:to-orange-500 hover:text-white border border-amber-300 hover:border-[#E68598] rounded-xl p-3 text-amber-400 text-md md:text-xl font-bold px-10 drop-shadow transition ease-in-out duration-300 mx-auto js-show-on-scroll"
 					>
 						GET IN TOUCH
 					</a>

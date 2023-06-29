@@ -120,7 +120,7 @@ function Nav() {
 				<ul className="hidden md:block md:flex md:items-center md:mr-5">
 					{menu.map((menu) => (
 						<li
-							className={`uppercase text-md font-semibold text-neutral-700 hover:text-white p-5 cursor-pointer transition ease-in-out hover:scale-110 duration-300`}
+							className={`uppercase text-md font-bold text-neutral-700 hover:text-white p-5 cursor-pointer transition ease-in-out hover:scale-110 duration-300`}
 							key={menu.id}
 						>
 							{menu.name !== "Resume" ? (
@@ -129,7 +129,7 @@ function Nav() {
 								</a>
 							) : (
 								<a
-									className="text-amber-300 hover:text-white flex bg-transparent hover:bg-gradient-to-r hover:from-cyan-400 hover:to-indigo-400 hover:text-white border border-amber-300 hover:border-[#E68598] rounded-xl text-neutral-600 text-md font-bold px-5 py-2 drop-shadow transition ease-in-out duration-300 mx-auto"
+									className="text-amber-400 hover:text-white flex bg-transparent hover:bg-gradient-to-r hover:from-amber-400 hover:to-orange-500 hover:text-white border border-amber-300 hover:border-[#E68598] rounded-xl text-md font-bold px-5 py-2 drop-shadow transition ease-in-out duration-300 mx-auto"
 									href={resume}
 									target="_blank"
 									rel="noreferrer"
