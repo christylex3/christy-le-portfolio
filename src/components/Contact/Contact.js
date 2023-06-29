@@ -10,7 +10,7 @@ function Contact() {
 				<h2 className="section-head text-5xl py-8 mt-20 text-center md:text-left font-bold drop-shadow font-staatliches text-transparent bg-clip-text bg-gradient-to-b from-neutral-700 to-neutral-500">
 					CONTACT
 				</h2>
-				<p className="text-zinc-200 font-medium text-lg text-center md:text-xl md:pr-5 mb-14 max-w-2xl">
+				<p className="text-zinc-200 font-medium text-lg text-center md:text-xl md:pr-5 mb-14 max-w-2xl drop-shadow">
 					Have questions, or want to work together? Let's connect then!
 					<br />Even if you just want to chat, send me a message, and I will do my best to get back to you!
 				</p>

@@ -41,7 +41,7 @@ function Footer() {
 					<MdEmail className="w-6 h-6" />
 				</a>
 			</div>
-			<p className="text-neutral-700 flex text-xs md:text-xl font-narrow py-2 md:pb-1">
+			<p className="text-neutral-700 flex text-xs md:text-xl font-narrow py-2 md:pb-1 drop-shadow">
 				© CHRISTY LE 2023
 			</p>
 		</footer>
