@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-import logo from "../../assets/icon/christy-le-logo-white.png";
+import logo from "../../assets/icon/christy-le-logo-black.png";
 import resume from "../../assets/resume/christy-le-resume.pdf";
 
 function Nav() {
@@ -66,7 +66,7 @@ function Nav() {
 			} bg-hero bg-fixed bg-cover bg-top md:bg-center opacity-95 md:flex md:justify-between relative z-50`}
 		>
 			<img
-				className="text-center pl-5 py-4 md:py-3 h-20 ml-1 md:ml-5 object-cover hover:cursor-pointer hover:animate-pulse"
+				className="text-center pl-5 py-4 md:py-3 h-20 ml-1 md:ml-5 object-cover opacity-75 select-none"
 				src={logo}
 				alt="Christy's Logo"
 				onClick={() => {
@@ -84,7 +84,6 @@ function Nav() {
 				>
 					<FaTimes />
 				</button>
-
 				<ul className="flex flex-col bg-neutral-900 w-full h-screen gap-16 text-4xl uppercase text-white items-center justify-center font-semibold z-10">
 					{menu.map((menu) => (
 						<li
@@ -97,6 +96,7 @@ function Nav() {
 								</a>
 							) : (
 								<a
+									className="text-amber-300 border border-amber-300 rounded-xl bg-transparent hover:bg-gradient-to-r hover:from-cyan-400 hover:to-indigo-400 hover:text-white hover:border-[#161616] py-2 px-5"
 									href={resume}
 									target="_blank"
 									rel="noreferrer"
@@ -110,7 +110,7 @@ function Nav() {
 			</nav>
 			{/* Menu button */}
 			<button
-				className="nav-btn drop-shadow absolute top-1/2 right-0 flex -translate-y-1/2 p-5 text-xl mr-1 md:hidden hover:text-[#f472b6]"
+				className="nav-btn text-neutral-700 drop-shadow absolute top-1/2 right-0 flex -translate-y-1/2 p-5 text-xl mr-1 md:hidden hover:text-[#f472b6]"
 				onClick={showNavbar}
 			>
 				<FaBars />
@@ -120,7 +120,7 @@ function Nav() {
 				<ul className="hidden md:block md:flex md:items-center md:mr-5">
 					{menu.map((menu) => (
 						<li
-							className={`uppercase text-md font-semibold hover:text-zinc-700 p-5 cursor-pointer transition ease-in-out hover:scale-110 duration-300`}
+							className={`uppercase text-md font-semibold text-neutral-700 hover:text-white p-5 cursor-pointer transition ease-in-out hover:scale-110 duration-300`}
 							key={menu.id}
 						>
 							{menu.name !== "Resume" ? (
@@ -129,6 +129,7 @@ function Nav() {
 								</a>
 							) : (
 								<a
+									className="text-amber-300 hover:text-white flex bg-transparent hover:bg-gradient-to-r hover:from-cyan-400 hover:to-indigo-400 hover:text-white border border-amber-300 hover:border-[#E68598] rounded-xl text-neutral-600 text-md font-bold px-5 py-2 drop-shadow transition ease-in-out duration-300 mx-auto"
 									href={resume}
 									target="_blank"
 									rel="noreferrer"

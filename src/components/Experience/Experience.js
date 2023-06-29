@@ -82,7 +82,7 @@ function Skills() {
 								<li className="font-firamono">Node.js</li>
 								<li className="font-firamono">React</li>
 								<li className="font-firamono">Sequelize</li>
-								<li className="font-firamono">Tailwind</li>
+								<li className="font-firamono">Tailwind CSS</li>
 							</ul>
 						</div>
 						<div className="flex flex-col mr-8 md:w-1/4">

@@ -7,7 +7,7 @@ function Contact() {
 			className="mx-auto w-full relative px-7 md:px-0"
 		>
 			<div className="flex flex-col mx-auto justify-center items-center min-h-screen max-w-4xl js-show-on-scroll">
-				<h2 className="section-head text-5xl py-8 mt-20 text-center md:text-left font-bold drop-shadow font-staatliches text-neutral-700">
+				<h2 className="section-head text-5xl py-8 mt-20 text-center md:text-left font-bold drop-shadow font-staatliches text-transparent bg-clip-text bg-gradient-to-b from-neutral-700 to-neutral-500">
 					CONTACT
 				</h2>
 				<p className="text-zinc-200 font-medium text-lg text-center md:text-xl md:pr-5 mb-14 max-w-2xl">
