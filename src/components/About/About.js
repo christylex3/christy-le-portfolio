@@ -61,7 +61,7 @@ function About() {
 						</p>
 					</div>
 					<img
-						className="rounded-lg object-cover w-full md:w-1/3 h-[350px] hover:cursor-pointer mix-blend-luminosity hover:mix-blend-normal drop-shadow js-show-on-scroll"
+						className="object-cover object-scale-down rounded-xl w-full md:[350px] h-[350px] hover:cursor-pointer mix-blend-luminosity hover:mix-blend-normal drop-shadow js-show-on-scroll"
 						src={christy_le}
 						alt="CHRISTY LE"
 					/>
