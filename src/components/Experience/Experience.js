@@ -9,6 +9,36 @@ function Skills() {
 				</h2>
 				<article className="text-neutral-300 font-bold text-lg md:text-xl mb-3 flex flex-wrap justify-between md:justify-normal mb-3 js-show-on-scroll">
 					<div className="flex flex-col md:flex-row">
+						<p className="font-normal md:ml-2 md:mr-0">
+							Code Coach, @
+						</p>
+						<a
+							href="https://www.thecoderschool.com/"
+							alt="theCoderSchool"
+						>
+							theCoderSchool
+						</a>
+					</div>
+					<p className="flex md:items-center font-thin text-sm text-neutral-400 md:ml-2">
+						Sep 2023 - Present
+					</p>
+				</article>
+				<ul className="list-disc pl-4 mb-8 text-neutral-400 text-lg md:text-xl js-show-on-scroll">
+					<li>
+						Devised unique and engaging Python, Java, Robotics
+						curriculums
+					</li>
+					<li>
+						Assisted in hosting a Halloween Hackathon event and fall
+						camps
+					</li>
+					<li>
+						Coached in one-on-one sessions and in traditional
+						classroom settings
+					</li>
+				</ul>
+				{/* <article className="text-neutral-300 font-bold text-lg md:text-xl mb-3 flex flex-wrap justify-between md:justify-normal mb-3 js-show-on-scroll">
+					<div className="flex flex-col md:flex-row">
 						<a
 							href="https://www.modexposure.com/"
 							alt="Mod Exposure"
@@ -46,7 +76,7 @@ function Skills() {
 					<li>
 						Generated exceptional sales and trained new trainees
 					</li>
-				</ul>
+				</ul> */}
 				<p className="text-neutral-400 md:font-medium text-lg md:text-xl mb-8 js-show-on-scroll">
 					Also, here are some technologies I've been working with:
 				</p>
@@ -65,6 +95,7 @@ function Skills() {
 								<li className="font-firamono">JavaScript</li>
 								<li className="font-firamono">MongoDB</li>
 								<li className="font-firamono">MySQL</li>
+								<li className="font-firamono">Python</li>
 							</ul>
 						</div>
 						<div className="flex flex-col md:mr-4 md:w-1/4 md:mr-8">
@@ -100,9 +131,15 @@ function Skills() {
 								Other Tools
 							</p>
 							<ul className="list-disc pl-4 mb-4">
-								<li className="font-firamono">Adobe Illustrator</li>
-								<li className="font-firamono">Adobe Photoshop</li>
-								<li className="font-firamono">Adobe Premiere Pro</li>
+								<li className="font-firamono">
+									Adobe Illustrator
+								</li>
+								<li className="font-firamono">
+									Adobe Photoshop
+								</li>
+								<li className="font-firamono">
+									Adobe Premiere Pro
+								</li>
 								<li className="font-firamono">Excalidraw</li>
 								<li className="font-firamono">Figma</li>
 								<li className="font-firamono">Lucidchart</li>
@@ -174,7 +211,7 @@ function Skills() {
 						<article className="skill-item">
 							<div className="skill-info flex justify-between text-neutral-400">
 								<p className="font-medium font-firamono">
-									MongoDB
+									Python
 								</p>
 								<p className="font-medium">75%</p>
 							</div>
