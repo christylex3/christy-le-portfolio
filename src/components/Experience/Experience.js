@@ -13,7 +13,9 @@ function Skills() {
 							Code Coach, @
 						</p>
 						<a
-							href="https://www.thecoderschool.com/"
+							href="https://www.thecoderschool.com/locations/suwanee/"
+							target="_blank"
+							rel="noreferrer"
 							alt="theCoderSchool"
 						>
 							theCoderSchool
