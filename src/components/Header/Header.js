@@ -26,7 +26,7 @@ function Header() {
 					<h3 className="text-neutral-100 text-lg md:font-medium text-left md:text-xl mt-8 drop-shadow mb-14 js-show-on-scroll">
 						Currently, I'm working at{" "}
 						<span className="text-neutral-600 font-extrabold animated-underline drop-shadow">
-							<a href="https://gocozia.com">theCoderSchool</a>
+							<a href="https://www.thecoderschool.com/locations/suwanee/">theCoderSchool</a>
 						</span>{" "}
 						as a code coach, and I'm also learning AngularJS through
 						an Udemy course! Drop by my inbox if you have any
